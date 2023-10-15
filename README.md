@@ -14,6 +14,8 @@
 
 The texts in the treebank are from Folha de São Paulo newspaper, which are publicly available at Kaggle website. Overall, the journalistc portion of Porttinari includes 167,048 news articles, with 3,964,321 sentences and 94,646,080 tokens, which are distributed in the subcorpora as follows.
 
+![subcorpora](https://github.com/UniversalDependencies/UD_Portuguese-Porttinari/assets/41649292/0eb597a6-4b41-49e6-b360-3afed709ad13)
+
 UD_Portuguese-Porttinari is the UD release of Porttinari-base.
 
 # Acknowledgments

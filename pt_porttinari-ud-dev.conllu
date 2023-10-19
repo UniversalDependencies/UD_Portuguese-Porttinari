@@ -357,7 +357,7 @@
 # sent_id = FOLHA_DOC003150_SENT034
 # text = "Gosto de cerveja, passei a participar de grupos de discussão nas redes sociais e, em 2010, a oportunidade surgiu por acaso", afirma.
 1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	Gosto	gostar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	ccomp	_	PreviousRel=ccomp:speech
+2	Gosto	gostar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	ccomp:speech	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	cerveja	cerveja	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
@@ -641,7 +641,7 @@
 5	áreas	área	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
 6	não	não	ADV	_	_	8	advmod	_	_
 7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-8	provável	provável	ADJ	_	Number=Sing	10	ccomp	_	PreviousRel=ccomp:speech|SpaceAfter=No
+8	provável	provável	ADJ	_	Number=Sing	10	ccomp:speech	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	avalia	avaliar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	Bruno	Bruno	PROPN	_	_	10	nsubj	_	_
@@ -795,7 +795,7 @@
 
 # sent_id = FOLHA_DOC003073_SENT009
 # text = Seguia a linha "free style", conta o marido, Cleomar, percorrendo as ruas com a rapaziada para grafitar.
-1	Seguia	seguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	ccomp	_	PreviousRel=ccomp:speech
+1	Seguia	seguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	ccomp:speech	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	linha	linha	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
 4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
@@ -1203,7 +1203,7 @@
 6	não	não	ADV	_	_	9	advmod	_	_
 7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	herói	herói	NOUN	_	Gender=Masc|Number=Sing	1	ccomp	_	PreviousRel=ccomp:speech|SpaceAfter=No
+9	herói	herói	NOUN	_	Gender=Masc|Number=Sing	1	ccomp:speech	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	16	punct	_	_
 11	mas	mas	CCONJ	_	_	16	cc	_	_
 12	não	não	ADV	_	_	16	advmod	_	_
@@ -1223,7 +1223,7 @@
 2	Assim	assim	ADV	_	_	5	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	não	não	ADV	_	_	5	advmod	_	_
-5	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	PreviousRel=ccomp:speech
+5	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp:speech	_	_
 6	como	como	ADV	_	_	7	advmod	_	_
 7	afirmar	afirmar	VERB	_	VerbForm=Inf	5	ccomp	_	_
 8	que	que	SCONJ	_	_	10	mark	_	_
@@ -1245,7 +1245,7 @@
 
 # sent_id = FOLHA_DOC003139_SENT008
 # text = Não que ela hoje não seja, mas as pessoas buscavam um respiro, elas precisavam disso, diz Tony Ramos, que vive José Augusto, o pai da mocinha.
-1	Não	não	ADV	_	_	20	ccomp	_	PreviousRel=ccomp:speech
+1	Não	não	ADV	_	_	20	ccomp:speech	_	_
 2	que	que	SCONJ	_	_	6	mark	_	_
 3	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 4	hoje	hoje	ADV	_	_	6	advmod	_	_
@@ -1348,7 +1348,7 @@
 10	brincou	brincar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	:	:	PUNCT	_	_	13	punct	_	_
 12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
-13	Votei	votar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	ccomp	_	PreviousRel=ccomp:speech
+13	Votei	votar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	ccomp:speech	_	_
 14	duas	dois	NUM	_	Gender=Fem|NumType=Card	15	nummod	_	_
 15	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
 16	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
@@ -1699,7 +1699,7 @@
 14	boate	boate	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
 15	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
 16	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
-17	proibido	proibido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	9	ccomp	_	PreviousRel=ccomp:speech
+17	proibido	proibido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	9	ccomp:speech	_	_
 18	dançar	dançar	VERB	_	VerbForm=Inf	17	csubj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
@@ -2140,7 +2140,7 @@
 8	de	de	ADP	_	_	11	case	_	_
 9	respectivamente	respectivamente	ADV	_	_	11	advmod	_	_
 10	8	8	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
-11	%	%	SYM	_	_	16	ccomp	_	PreviousRel=ccomp:speech
+11	%	%	SYM	_	_	16	ccomp:speech	_	_
 12	e	e	CCONJ	_	_	14	cc	_	_
 13	25	25	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
 14	%	%	SYM	_	_	11	conj	_	SpaceAfter=No
@@ -2172,7 +2172,7 @@
 # sent_id = FOLHA_DOC004120_SENT009
 # text = "Queremos ajudar a produzir experiências sonoras", afirma Roberto Guimarães, diretor de Cultura da Oi.
 1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	Queremos	querer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	ccomp	_	PreviousRel=ccomp:speech
+2	Queremos	querer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	ccomp:speech	_	_
 3	ajudar	ajudar	VERB	_	VerbForm=Inf	2	xcomp	_	_
 4	a	a	ADP	_	_	5	mark	_	_
 5	produzir	produzir	VERB	_	VerbForm=Inf	3	xcomp	_	_
@@ -2204,7 +2204,7 @@
 6	tantos	tanto	DET	_	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
 7	muros	muro	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
 8	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
-9	construídos	construir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	14	ccomp	_	PreviousRel=ccomp:speech
+9	construídos	construir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	14	ccomp:speech	_	_
 10-11	nas	_	_	_	_	_	_	_	_
 10	em	em	ADP	_	_	12	case	_	_
 11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
@@ -2972,7 +2972,7 @@
 7	em	em	ADP	_	_	9	case	_	_
 8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Ministério	Ministério	PROPN	_	_	6	obl	_	_
-10	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	PreviousRel=ccomp:speech
+10	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp:speech	_	_
 11	ser	ser	AUX	_	VerbForm=Inf	13	cop	_	_
 12	contra	contra	ADP	_	_	13	case	_	_
 13	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	10	xcomp	_	SpaceAfter=No
@@ -3162,7 +3162,7 @@
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	partidos	partido	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-4	entidades	entidade	NOUN	_	Gender=Fem|Number=Plur	11	ccomp	_	PreviousRel=ccomp:speech
+4	entidades	entidade	NOUN	_	Gender=Fem|Number=Plur	11	ccomp:speech	_	_
 5	privadas	privado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	4	amod	_	_
 6	e	e	CCONJ	_	_	8	cc	_	_
 7	assim	assim	ADV	_	_	8	advmod	_	_
@@ -3238,7 +3238,7 @@
 8	:	:	PUNCT	_	_	11	punct	_	_
 9	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
 10	Procurador	procurador	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
-11	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	PreviousRel=ccomp:speech
+11	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp:speech	_	_
 12	que	que	SCONJ	_	_	14	mark	_	_
 13	Temer	Temer	PROPN	_	_	14	nsubj	_	_
 14	comprou	comprar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	ccomp	_	_
@@ -3568,7 +3568,7 @@
 1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	4	nsubj	_	_
 3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-4	estarrecidos	estarrecido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	19	ccomp	_	PreviousRel=ccomp:speech
+4	estarrecidos	estarrecido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	19	ccomp:speech	_	_
 5	com	com	ADP	_	_	8	case	_	_
 6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 7	últimos	último	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
@@ -3796,7 +3796,7 @@
 3	culpa	culpa	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 5	de	de	ADP	_	_	6	case	_	_
-6	vocês	você	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	9	ccomp	_	PreviousRel=ccomp:speech|SpaceAfter=No
+6	vocês	você	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	9	ccomp:speech	_	SpaceAfter=No
 7	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	6	punct	_	_
 9	zombou	zombar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -4656,7 +4656,7 @@
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Matheus	Matheus	PROPN	_	_	4	nsubj	_	_
 3	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
-4	vendo	ver	VERB	_	VerbForm=Ger	18	ccomp	_	PreviousRel=ccomp:speech
+4	vendo	ver	VERB	_	VerbForm=Ger	18	ccomp:speech	_	_
 5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	pós-graduação	pós-graduação	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
 7	em	em	ADP	_	_	8	case	_	_
@@ -4746,7 +4746,7 @@
 11	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	10	obj	_	_
 12	diferente	diferente	ADJ	_	Number=Sing	11	amod	_	_
 13	nos	nos	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	14	obj	_	_
-14	ajuda	ajudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	ccomp	_	PreviousRel=ccomp:speech
+14	ajuda	ajudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	ccomp:speech	_	_
 15	a	a	ADP	_	_	16	mark	_	_
 16	tentar	tentar	VERB	_	VerbForm=Inf	14	xcomp	_	_
 17	convencer	convencer	VERB	_	VerbForm=Inf	16	xcomp	_	_
@@ -4970,7 +4970,7 @@
 # text = "Já imaginávamos que a alimentação seria à base de lanches, mas os preços estão um pouco salgados", disse ele.
 1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Já	já	ADV	_	_	3	advmod	_	_
-3	imaginávamos	imaginar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	23	ccomp	_	PreviousRel=ccomp:speech
+3	imaginávamos	imaginar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	23	ccomp:speech	_	_
 4	que	que	SCONJ	_	_	10	mark	_	_
 5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	alimentação	alimentação	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
@@ -5298,7 +5298,7 @@
 9	andar	andar	NOUN	_	Gender=Masc|Number=Sing	12	parataxis	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
-12	dando	dar	VERB	_	VerbForm=Ger	5	ccomp	_	PreviousRel=ccomp:speech
+12	dando	dar	VERB	_	VerbForm=Ger	5	ccomp:speech	_	_
 13	tiro	tiro	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	chumbinho	chumbinho	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
@@ -5785,7 +5785,7 @@
 8	São	São	PROPN	_	_	11	nsubj	_	_
 9	Paulo	Paulo	PROPN	_	_	8	flat:name	_	_
 10	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
-11	ganhar	ganhar	VERB	_	VerbForm=Inf	15	ccomp	_	PreviousRel=ccomp:speech
+11	ganhar	ganhar	VERB	_	VerbForm=Inf	15	ccomp:speech	_	_
 12	40	40	NUM	_	NumType=Card	13	nummod	_	SpaceAfter=No
 13	%	%	SYM	_	_	11	obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	11	punct	_	_
@@ -5834,7 +5834,7 @@
 10	cada	cada	DET	_	Number=Sing|PronType=Ind	13	advmod	_	_
 11	vez	vez	NOUN	_	Gender=Fem|Number=Sing	10	fixed	_	_
 12	mais	mais	ADV	_	_	10	fixed	_	_
-13	enxerga	enxergar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	_	PreviousRel=ccomp:speech
+13	enxerga	enxergar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp:speech	_	_
 14	apetite	apetite	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
 15	maior	maior	ADJ	_	Number=Sing	14	amod	_	_
 16	a	a	ADP	_	_	17	case	_	_
@@ -6229,7 +6229,7 @@
 
 # sent_id = FOLHA_DOC003121_SENT009
 # text = Temos clientes que antes tinham 'bonequinhos', que não saíam ou conviviam com outros animais, conta Mackdavid Alves, um dos três sócios.
-1	Temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	ccomp	_	PreviousRel=ccomp:speech
+1	Temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	ccomp:speech	_	_
 2	clientes	cliente	NOUN	_	Number=Plur	1	obj	_	_
 3	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
 4	antes	antes	ADV	_	_	5	advmod	_	_
@@ -6521,7 +6521,7 @@
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Bahia	Bahia	PROPN	_	_	1	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	tiveram	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	24	ccomp	_	PreviousRel=ccomp:speech
+7	tiveram	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	24	ccomp:speech	_	_
 8	reduções	redução	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
 9	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
 10	em	em	ADP	_	_	11	case	_	_
@@ -6595,7 +6595,7 @@
 
 # sent_id = FOLHA_DOC004128_SENT009
 # text = Adoraríamos ter um jogo no Brasil, afirmou Mike Walters, vice-presidente de programação da ESPN.
-1	Adoraríamos	adorar	VERB	_	Mood=Cnd|Number=Plur|Person=1|VerbForm=Fin	9	ccomp	_	PreviousRel=ccomp:speech
+1	Adoraríamos	adorar	VERB	_	Mood=Cnd|Number=Plur|Person=1|VerbForm=Fin	9	ccomp:speech	_	_
 2	ter	ter	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	jogo	jogo	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -6651,7 +6651,7 @@
 9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 10	como	como	SCONJ	_	_	12	mark	_	_
 11	se	se	SCONJ	_	_	10	fixed	_	_
-12	houvesse	haver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	ccomp	_	PreviousRel=ccomp:speech
+12	houvesse	haver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	ccomp:speech	_	_
 13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	espelho	espelho	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	12	punct	_	_
@@ -7609,7 +7609,7 @@
 # text = Os milionários agradecem, disse o deputado Chico Alencar (PSOL-RJ).
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	milionários	milionário	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
-3	agradecem	agradecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	PreviousRel=ccomp:speech|SpaceAfter=No
+3	agradecem	agradecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp:speech	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -7733,7 +7733,7 @@
 2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	11	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	5	nsubj	_	_
-5	quis	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	ccomp	_	PreviousRel=ccomp:speech
+5	quis	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	ccomp:speech	_	_
 6	ficar	ficar	VERB	_	VerbForm=Inf	5	xcomp	_	_
 7	esperando	esperar	VERB	_	VerbForm=Ger	6	xcomp	_	_
 8	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
@@ -7746,7 +7746,7 @@
 # sent_id = FOLHA_DOC003051_SENT020
 # text = "Lançaremos nove carros com motores elétricos nos próximos anos", disse.
 1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	Lançaremos	lançar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	14	ccomp	_	PreviousRel=ccomp:speech
+2	Lançaremos	lançar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	14	ccomp:speech	_	_
 3	nove	nove	NUM	_	NumType=Card	4	nummod	_	_
 4	carros	carro	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
 5	com	com	ADP	_	_	6	case	_	_
@@ -7781,7 +7781,7 @@
 4	elétricos	elétrico	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
 5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	passo	passo	NOUN	_	Gender=Masc|Number=Sing	11	ccomp	_	PreviousRel=ccomp:speech
+7	passo	passo	NOUN	_	Gender=Masc|Number=Sing	11	ccomp:speech	_	_
 8	definitivo	definitivo	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
 9	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	7	punct	_	_
@@ -8349,7 +8349,7 @@
 # sent_id = FOLHA_DOC003178_SENT056
 # text = "Tenho uma fortaleza mental", diz, com um sorriso contido que parece querer a todo custo contradizê-lo.
 1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	Tenho	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	ccomp	_	PreviousRel=ccomp:speech
+2	Tenho	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	ccomp:speech	_	_
 3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	fortaleza	fortaleza	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
 5	mental	mental	ADJ	_	Number=Sing	4	amod	_	SpaceAfter=No
@@ -8490,7 +8490,7 @@
 11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	cardápio	cardápio	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	poderão	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	17	ccomp	_	PreviousRel=ccomp:speech
+14	poderão	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	17	ccomp:speech	_	_
 15	reclamar	reclamar	VERB	_	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	14	punct	_	_
 17	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8594,7 +8594,7 @@
 # text = "Foi legal, mas choveu e não consegui usar a rede", diz a aluna, dando a entender que o diretor também pode descansar durante o trabalho.
 1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
-3	legal	legal	ADJ	_	Number=Sing	15	ccomp	_	PreviousRel=ccomp:speech|SpaceAfter=No
+3	legal	legal	ADJ	_	Number=Sing	15	ccomp:speech	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	mas	mas	CCONJ	_	_	6	cc	_	_
 6	choveu	chover	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
@@ -8648,7 +8648,7 @@
 2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	tristeza	tristeza	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
-5	grande	grande	ADJ	_	Number=Sing	15	ccomp	_	PreviousRel=ccomp:speech|SpaceAfter=No
+5	grande	grande	ADJ	_	Number=Sing	15	ccomp:speech	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	mas	mas	CCONJ	_	_	9	cc	_	_
 8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -8779,7 +8779,7 @@
 5	trimestre	trimestre	NOUN	_	Number=Sing	8	obl	_	_
 6	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
 7	demanda	demanda	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
-8	voltou	voltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	ccomp	_	PreviousRel=ccomp:speech|SpaceAfter=No
+8	voltou	voltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	ccomp:speech	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	ressalta	ressaltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	Ambrósio	Ambrósio	PROPN	_	_	10	nsubj	_	SpaceAfter=No
@@ -8810,7 +8810,7 @@
 # text = É uma estratégia de diferenciação em um setor já saturado, diz Gean Chu, sócio da marca, que investiu R$ 350 mil na criação do produto.
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	12	ccomp	_	PreviousRel=ccomp:speech
+3	estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	12	ccomp:speech	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	diferenciação	diferenciação	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 6	em	em	ADP	_	_	8	case	_	_
@@ -9419,7 +9419,7 @@
 19-20	na	_	_	_	_	_	_	_	_
 19	em	em	ADP	_	_	21	case	_	_
 20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	hora	hora	NOUN	_	Gender=Fem|Number=Sing	15	ccomp	_	PreviousRel=ccomp:speech|SpaceAfter=No
+21	hora	hora	NOUN	_	Gender=Fem|Number=Sing	15	ccomp:speech	_	SpaceAfter=No
 22	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
@@ -9480,7 +9480,7 @@
 4	para	para	ADP	_	_	5	case	_	_
 5	mim	mim	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
-7	é	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	PreviousRel=ccomp:speech
+7	é	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp:speech	_	_
 8	porque	porque	SCONJ	_	_	11	mark	_	_
 9	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 10	meus	meu	DET	_	Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	det	_	_
@@ -9590,7 +9590,7 @@
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Formiga	Formiga	PROPN	_	_	4	nsubj	_	_
 3	ainda	ainda	ADV	_	_	4	advmod	_	_
-4	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	PreviousRel=ccomp:speech
+4	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp:speech	_	_
 5	condições	condição	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
 6	de	de	ADP	_	_	7	mark	_	_
 7	jogar	jogar	VERB	_	VerbForm=Inf	5	acl	_	_
@@ -10247,7 +10247,7 @@
 # text = Ele não participou, por exemplo, de nenhuma reunião minha com o Marcelo, disse.
 1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	não	não	ADV	_	_	3	advmod	_	_
-3	participou	participar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	ccomp	_	PreviousRel=ccomp:speech|SpaceAfter=No
+3	participou	participar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	ccomp:speech	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	por	por	ADP	_	_	6	case	_	_
 6	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
@@ -10405,7 +10405,7 @@
 16	pares	par	NOUN	_	Gender=Masc|Number=Plur	12	obl:agent	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	4	punct	_	_
 18-19	entrego-lhes	_	_	_	_	_	_	_	_
-18	entrego	entregar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	34	ccomp	_	PreviousRel=ccomp:speech
+18	entrego	entregar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	34	ccomp:speech	_	_
 19	lhes	lhe	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	18	iobj	_	_
 20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	Ministério	Ministério	PROPN	_	_	18	obj	_	_
@@ -10607,7 +10607,7 @@
 # text = A adoção tem que ser pensada com a cabeça, e não só com o coração, afirma.
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	adoção	adoção	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
-3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	PreviousRel=ccomp:speech
+3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp:speech	_	_
 4	que	que	ADP	_	_	6	mark	_	_
 5	ser	ser	AUX	_	VerbForm=Inf	6	aux:pass	_	_
 6	pensada	pensar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	xcomp	_	_
@@ -10714,7 +10714,7 @@
 4-5	no	_	_	_	_	_	_	_	_
 4	em	em	ADP	_	_	6	case	_	_
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	radar	radar	NOUN	_	Gender=Masc|Number=Sing	13	ccomp	_	PreviousRel=ccomp:speech
+6	radar	radar	NOUN	_	Gender=Masc|Number=Sing	13	ccomp:speech	_	_
 7	havia	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
 8	uma	um	NUM	_	Gender=Fem|NumType=Card	9	nummod	_	_
 9	década	década	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
@@ -10870,7 +10870,7 @@
 
 # sent_id = FOLHA_DOC000107_SENT015
 # text = Fica mais fácil identificar problemas em tempo real, afirma.
-1	Fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	PreviousRel=ccomp:speech
+1	Fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp:speech	_	_
 2	mais	mais	ADV	_	_	3	advmod	_	_
 3	fácil	fácil	ADJ	_	Number=Sing	1	xcomp	_	_
 4	identificar	identificar	VERB	_	VerbForm=Inf	1	csubj	_	_
@@ -11066,7 +11066,7 @@
 4	zona	zona	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 5	oeste	oeste	ADJ	_	Number=Sing	4	amod	_	_
 6	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-7	os	o	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	14	ccomp	_	PreviousRel=ccomp:speech
+7	os	o	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	14	ccomp:speech	_	_
 8	mais	mais	ADV	_	_	9	advmod	_	_
 9	satisfeitos	satisfeito	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	7	amod	_	_
 10	de	de	ADP	_	_	11	case	_	_
@@ -11292,7 +11292,7 @@
 8	agora	agora	ADV	_	_	6	advmod	_	_
 9	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
 10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	candidato	candidato	NOUN	_	Gender=Masc|Number=Sing	17	ccomp	_	PreviousRel=ccomp:speech
+11	candidato	candidato	NOUN	_	Gender=Masc|Number=Sing	17	ccomp:speech	_	_
 12-13	à	_	_	_	_	_	_	_	_
 12	a	a	ADP	_	_	14	case	_	_
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -11542,7 +11542,7 @@
 
 # sent_id = FOLHA_DOC001494_SENT015
 # text = Para de chorar porque o seu marido vai cansar, relata.
-1	Para	parar	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	11	ccomp	_	PreviousRel=ccomp:speech
+1	Para	parar	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	11	ccomp:speech	_	_
 2	de	de	ADP	_	_	3	mark	_	_
 3	chorar	chorar	VERB	_	VerbForm=Inf	1	xcomp	_	_
 4	porque	porque	CCONJ	_	_	9	mark	_	_
@@ -11557,7 +11557,7 @@
 
 # sent_id = FOLHA_DOC000007_SENT001
 # text = Posso sair do Brasil quando e como quiser, diz Cesare Battisti.
-1	Posso	poder	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	ccomp	_	PreviousRel=ccomp:speech
+1	Posso	poder	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	ccomp:speech	_	_
 2	sair	sair	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -11718,7 +11718,7 @@
 # text = "Eu queria que o disco fosse acessível, e isso quer dizer sonoramente acessível", afirma.
 1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-3	queria	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	18	ccomp	_	PreviousRel=ccomp:speech
+3	queria	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	18	ccomp:speech	_	_
 4	que	que	SCONJ	_	_	8	mark	_	_
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	disco	disco	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -11818,7 +11818,7 @@
 1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Não	não	ADV	_	_	4	advmod	_	_
 3	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
-4	acho	achar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	ccomp	_	PreviousRel=ccomp:speech
+4	acho	achar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	ccomp:speech	_	_
 5	melhor	melhor	ADJ	_	Number=Sing	4	xcomp	_	_
 6	por	por	ADP	_	_	8	mark	_	_
 7	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	expl	_	_
@@ -12367,7 +12367,7 @@
 13-14	na	_	_	_	_	_	_	_	_
 13	em	em	ADP	_	_	15	case	_	_
 14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	hora	hora	NOUN	_	Gender=Fem|Number=Sing	8	ccomp	_	PreviousRel=ccomp:speech
+15	hora	hora	NOUN	_	Gender=Fem|Number=Sing	8	ccomp:speech	_	_
 16	de	de	ADP	_	_	17	mark	_	_
 17	viver	viver	VERB	_	VerbForm=Inf	15	acl	_	_
 18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -12437,7 +12437,7 @@
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	poloneses	polonês	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
-9	dizem	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	PreviousRel=ccomp:speech
+9	dizem	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp:speech	_	_
 10	que	que	SCONJ	_	_	13	mark	_	_
 11	têm	ter	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 12	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	13	aux:pass	_	_
@@ -12678,7 +12678,7 @@
 # text = Seria um baque nas contas públicas, queixaram-se os economistas.
 1	Seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	3	cop	_	_
 2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	baque	baque	NOUN	_	Gender=Masc|Number=Sing	9	ccomp	_	PreviousRel=ccomp:speech
+3	baque	baque	NOUN	_	Gender=Masc|Number=Sing	9	ccomp:speech	_	_
 4-5	nas	_	_	_	_	_	_	_	_
 4	em	em	ADP	_	_	6	case	_	_
 5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
@@ -12757,7 +12757,7 @@
 13	fala	falar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 14	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
 15	nóis	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
-16	vai	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	PreviousRel=ccomp:speech|SpaceAfter=No
+16	vai	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp:speech	_	SpaceAfter=No
 17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
@@ -12907,7 +12907,7 @@
 4	automática	automático	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 5	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	7	cop	_	_
 6	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
-7	saída	saída	NOUN	_	Gender=Fem|Number=Sing	13	ccomp	_	PreviousRel=ccomp:speech
+7	saída	saída	NOUN	_	Gender=Fem|Number=Sing	13	ccomp:speech	_	_
 8-9	da	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -13279,7 +13279,7 @@
 # text = Isso nos deixa mais animados, diz o presidente da empresa.
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	nos	nos	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obj	_	_
-3	deixa	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	PreviousRel=ccomp:speech
+3	deixa	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp:speech	_	_
 4	mais	mais	ADV	_	_	5	advmod	_	_
 5	animados	animado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	3	xcomp	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
@@ -13647,7 +13647,7 @@
 # sent_id = FOLHA_DOC000002_SENT001
 # text = 'Decidi ser escrava das mulheres que sofrem', diz cantora Oumou Sangaré.
 1	'	'	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	Decidi	decidir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	ccomp	_	PreviousRel=ccomp:speech
+2	Decidi	decidir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	ccomp:speech	_	_
 3	ser	ser	AUX	_	VerbForm=Inf	4	cop	_	_
 4	escrava	escravo	NOUN	_	Gender=Fem|Number=Sing	2	xcomp	_	_
 5-6	das	_	_	_	_	_	_	_	_
@@ -14088,7 +14088,7 @@
 3	de	de	ADP	_	_	5	mark	_	_
 4	ser	ser	AUX	_	VerbForm=Inf	5	cop	_	_
 5	presidente	presidente	NOUN	_	Number=Sing	2	acl	_	_
-6	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	PreviousRel=ccomp:speech
+6	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp:speech	_	_
 7	ter	ter	AUX	_	VerbForm=Inf	8	aux	_	_
 8	tomado	tomar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	xcomp	_	_
 9	conta	conta	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
@@ -14432,7 +14432,7 @@
 # sent_id = FOLHA_DOC003043_SENT021
 # text = "Achei maravilhosa a iniciativa delas de querer participar", disse o secretário municipal da Educação, Alexandre Schneider.
 1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	Achei	achar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	ccomp	_	PreviousRel=ccomp:speech
+2	Achei	achar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	ccomp:speech	_	_
 3	maravilhosa	maravilhoso	ADJ	_	Gender=Fem|Number=Sing	2	xcomp	_	_
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	iniciativa	iniciativa	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
@@ -14894,7 +14894,7 @@
 # text = Porque você sabe que a agenda é complicada..., afirma, sorrindo de canto de boca.
 1	Porque	porque	CCONJ	_	_	3	cc	_	_
 2	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
-3	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	PreviousRel=ccomp:speech
+3	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp:speech	_	_
 4	que	que	SCONJ	_	_	8	mark	_	_
 5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	agenda	agenda	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -15044,7 +15044,7 @@
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	comitê	comitê	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 6	não	não	ADV	_	_	7	advmod	_	_
-7	mudou	mudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	ccomp	_	PreviousRel=ccomp:speech|SpaceAfter=No
+7	mudou	mudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	ccomp:speech	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -15247,7 +15247,7 @@
 7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	indústria	indústria	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	empregam	empregar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	PreviousRel=ccomp:speech
+10	empregam	empregar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp:speech	_	_
 11	muito	muito	ADV	_	_	10	advmod	_	_
 12-13	no	_	_	_	_	_	_	_	_
 12	em	em	ADP	_	_	14	case	_	_
@@ -15737,7 +15737,7 @@
 # text = "Se organize ou saia do caminho", disse.
 1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	3	expl	_	_
-3	organize	organizar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	PreviousRel=ccomp:speech
+3	organize	organizar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp:speech	_	_
 4	ou	ou	CCONJ	_	_	5	cc	_	_
 5	saia	sair	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 6-7	do	_	_	_	_	_	_	_	_
@@ -15763,7 +15763,7 @@
 # text = "Nós demonstramos que se as pessoas se casassem com parceiros de nível de escolaridade heterogêneo, a distribuição poderia ter melhorado ainda mais", diz Pereira.
 1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
-3	demonstramos	demonstrar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	27	ccomp	_	PreviousRel=ccomp:speech
+3	demonstramos	demonstrar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	27	ccomp:speech	_	_
 4	que	que	SCONJ	_	_	20	mark	_	_
 5	se	se	SCONJ	_	_	9	mark	_	_
 6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
@@ -16652,7 +16652,7 @@
 3	de	de	ADP	_	_	4	case	_	_
 4	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
 5	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
-6	ler	ler	VERB	_	VerbForm=Inf	13	ccomp	_	PreviousRel=ccomp:speech|SpaceAfter=No
+6	ler	ler	VERB	_	VerbForm=Inf	13	ccomp:speech	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	ler	ler	VERB	_	VerbForm=Inf	6	conj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
@@ -17298,7 +17298,7 @@
 # text = Você vai entender, explica Ranghiuc.
 1	Você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 2	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
-3	entender	entender	VERB	_	VerbForm=Inf	5	ccomp	_	PreviousRel=ccomp:speech|SpaceAfter=No
+3	entender	entender	VERB	_	VerbForm=Inf	5	ccomp:speech	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	explica	explicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	Ranghiuc	Ranghiuc	PROPN	_	_	5	nsubj	_	SpaceAfter=No
@@ -17672,7 +17672,7 @@
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	paraenses	paraense	NOUN	_	Number=Plur	2	acl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	esperamos	esperar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	ccomp	_	PreviousRel=ccomp:speech
+6	esperamos	esperar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	ccomp:speech	_	_
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Círio	Círio	PROPN	_	_	6	obj	_	_
 9	durante	durante	ADP	_	_	12	case	_	_
@@ -17699,7 +17699,7 @@
 # sent_id = FOLHA_DOC000021_SENT002
 # text = Trump serve de exemplo para mim, disse o pré-candidato à Presidência, deputado Jair Bolsonaro, do PSC, numa viagem pelos Estados Unidos nesta semana.
 1	Trump	Trump	PROPN	_	_	2	nsubj	_	_
-2	serve	servir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	PreviousRel=ccomp:speech
+2	serve	servir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp:speech	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
 5	para	para	ADP	_	_	6	case	_	_
@@ -17799,7 +17799,7 @@
 2	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	bloco	bloco	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 4	sempre	sempre	ADV	_	_	5	advmod	_	_
-5	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	ccomp	_	PreviousRel=ccomp:speech
+5	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	ccomp:speech	_	_
 6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	característica	característica	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 8	bastante	bastante	ADV	_	_	9	advmod	_	_
@@ -17855,7 +17855,7 @@
 # text = "Fui parar num tribunal por causa disso", lembra o empresário.
 1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Fui	ir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	_
-3	parar	parar	VERB	_	VerbForm=Inf	13	ccomp	_	PreviousRel=ccomp:speech
+3	parar	parar	VERB	_	VerbForm=Inf	13	ccomp:speech	_	_
 4-5	num	_	_	_	_	_	_	_	_
 4	em	em	ADP	_	_	6	case	_	_
 5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -17947,7 +17947,7 @@
 2	Este	este	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	momento	momento	NOUN	_	Gender=Masc|Number=Sing	24	ccomp	_	PreviousRel=ccomp:speech
+5	momento	momento	NOUN	_	Gender=Masc|Number=Sing	24	ccomp:speech	_	_
 6	crítico	crítico	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	definição	definição	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
@@ -18007,7 +18007,7 @@
 11	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	8	punct	_	_
 13	não	não	ADV	_	_	14	advmod	_	_
-14	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	PreviousRel=ccomp:speech
+14	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp:speech	_	_
 15	com	com	ADP	_	_	16	case	_	_
 16	quem	quem	PRON	_	PronType=Ind	17	obl	_	_
 17	deixar	deixar	VERB	_	VerbForm=Inf	14	ccomp	_	SpaceAfter=No
@@ -18136,7 +18136,7 @@
 # sent_id = FOLHA_DOC004035_SENT021
 # text = "Ficamos apreensivos, não era o fim de férias que queríamos, mas mantivemos a programação", conta ele.
 1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	Ficamos	ficar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	ccomp	_	PreviousRel=ccomp:speech
+2	Ficamos	ficar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	ccomp:speech	_	_
 3	apreensivos	apreensivo	ADJ	_	Gender=Masc|Number=Plur	2	xcomp	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	não	não	ADV	_	_	8	advmod	_	_
@@ -18290,7 +18290,7 @@
 # text = "Eita programa que eu gosto!", repetia Inezita Barroso a cada episódio do "Viola, Minha Viola", da TV Cultura.
 1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Eita	eita	INTJ	_	_	3	vocative	_	_
-3	programa	programa	NOUN	_	Gender=Masc|Number=Sing	10	ccomp	_	PreviousRel=ccomp:speech
+3	programa	programa	NOUN	_	Gender=Masc|Number=Sing	10	ccomp:speech	_	_
 4	que	que	PRON	_	PronType=Rel	6	obj	_	_
 5	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	gosto	gostar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
@@ -18615,7 +18615,7 @@
 # text = "Não dá para comprar quase nada aí, é difícil encontrar algo realmente fresco", falou.
 1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Não	não	ADV	_	_	3	advmod	_	_
-3	dá	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	PreviousRel=ccomp:speech
+3	dá	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp:speech	_	_
 4	para	para	ADP	_	_	5	mark	_	_
 5	comprar	comprar	VERB	_	VerbForm=Inf	3	csubj	_	_
 6	quase	quase	ADV	_	_	7	advmod	_	_
@@ -18677,7 +18677,7 @@
 # sent_id = FOLHA_DOC002071_SENT021
 # text = Eu gosto disso porque sempre acorda o meu time, disse o técnico Fabio Carille.
 1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
-2	gosto	gostar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	ccomp	_	PreviousRel=ccomp:speech
+2	gosto	gostar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	ccomp:speech	_	_
 3-4	disso	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	obl	_	_
@@ -18774,7 +18774,7 @@
 1	Por	por	ADP	_	_	2	case	_	_
 2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	decidi	decidir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	20	ccomp	_	PreviousRel=ccomp:speech
+4	decidi	decidir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	20	ccomp:speech	_	_
 5	incluir	incluir	VERB	_	VerbForm=Inf	4	xcomp	_	_
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	cobertura	cobertura	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
@@ -19279,7 +19279,7 @@
 2	Não	não	ADV	_	_	5	advmod	_	_
 3	eram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
 4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	mecanismo	mecanismo	NOUN	_	Gender=Masc|Number=Sing	18	ccomp	_	PreviousRel=ccomp:speech
+5	mecanismo	mecanismo	NOUN	_	Gender=Masc|Number=Sing	18	ccomp:speech	_	_
 6	fundamental	fundamental	ADJ	_	Number=Sing	5	amod	_	_
 7	para	para	ADP	_	_	11	mark	_	_
 8	que	que	SCONJ	_	_	7	fixed	_	_
@@ -19606,7 +19606,7 @@
 2	escreveu	escrever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	5	punct	_	_
 4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	Encaminho	encaminhar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	PreviousRel=ccomp:speech
+5	Encaminho	encaminhar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp:speech	_	_
 6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	print	print	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	5	obj	_	_
 8	[	[	PUNCT	_	_	10	punct	_	SpaceAfter=No
@@ -19861,7 +19861,7 @@
 # sent_id = FOLHA_DOC004114_SENT004
 # text = "Temos de ser a tampa do caixão", vaticina o campeão nacional.
 1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	Temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	ccomp	_	PreviousRel=ccomp:speech
+2	Temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	ccomp:speech	_	_
 3	de	de	ADP	_	_	6	mark	_	_
 4	ser	ser	AUX	_	VerbForm=Inf	6	cop	_	_
 5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_

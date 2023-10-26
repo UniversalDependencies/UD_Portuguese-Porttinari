@@ -1,14 +1,14 @@
 # Summary
 
-1st version of the journalistic portion of Porttinari (which stands for “PORTuguese Treebank”), which shall be a large multigenre treebank for Portuguese ([Pardo et al., 2021](https://sol.sbc.org.br/index.php/stil/article/view/17778/17612)), following the "Universal Dependencies" international grammar framework ([de Marneffe et al., 2021](https://aclanthology.org/2021.cl-2.11/)).
+Porttinari-base [(Duran et al., 2023)](https://sol.sbc.org.br/index.php/stil/article/view/25443/25264) is the journalistic portion of Porttinari (which stands for “PORTuguese Treebank”), which shall be a large multigenre treebank for Portuguese [(Pardo et al., 2021)](https://sol.sbc.org.br/index.php/stil/article/view/17778/17612), following the "Universal Dependencies" international grammar framework [(de Marneffe et al., 2021)](https://aclanthology.org/2021.cl-2.11/).
 
 # Introduction
 
-1st version of the journalistic portion of Porttinari (which stands for “PORTuguese Treebank”), which shall be a large multigenre treebank for Portuguese ([Pardo et al., 2021](https://sol.sbc.org.br/index.php/stil/article/view/17778/17612)), following the "Universal Dependencies" international grammar framework ([de Marneffe et al., 2021](https://aclanthology.org/2021.cl-2.11/)). As reported by [Duran et al. (2023)](https://sol.sbc.org.br/index.php/stil/article/view/25443/25264), Porttinari is currently composed by three subcorpora with different characteristics and purposes:
+As reported by [Duran et al., (2023)](https://sol.sbc.org.br/index.php/stil/article/view/25443/25264), Porttinari is currently composed by three subcorpora with different characteristics and purposes:
 
-* Porttinari-base, a corpus that is manually revised in detail to serve as gold standard (divided into training, development and test folds);
+* Porttinari-base (released here), a corpus that is manually revised in detail to serve as gold standard (divided into training, development and test folds), with average annotation review agreement (kappa) of 97.8% and 96.2% for part of speech tags and dependency relations, respectively;
 
-* Porttinari-check, a small corpus structurally similar to Porttinari-base to serve as testbed for additional and diversified evaluations and to illustrate the contrast between manual and automatic annotations;
+* Porttinari-check, a small corpus structurally similar to Porttinari-base to serve as testbed for additional and diversified evaluations and to illustrate the contrast between manual and automatic annotations; 
 
 * Porttinari-automatic, a very large corpus that was automatically annotated by a state of the art parser trained on Porttinari-base.
 
@@ -16,7 +16,7 @@ The texts in the treebank are from Folha de São Paulo newspaper, which are publ
 
 ![subcorpora](https://github.com/UniversalDependencies/UD_Portuguese-Porttinari/assets/41649292/0eb597a6-4b41-49e6-b360-3afed709ad13)
 
-UD_Portuguese-Porttinari is the UD release of Porttinari-base.
+For the interested reader, Porttinari-check and Porttinari-automatic, as well as other related information, may be accessed at [https://sites.google.com/icmc.usp.br/poetisa/porttinari](https://sites.google.com/icmc.usp.br/poetisa/).
 
 # Acknowledgments
 
@@ -31,13 +31,13 @@ This work was carried out at the Center for Artificial Intelligence of the Unive
 # Changelog
 
 * 2023-11-15 v2.13
-  * Initial release in Universal Dependencies.
+  * Initial release in Universal Dependencies: 1st version of Porttinari-base.
 
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.13
-License: CC BY-SA 4.0
+License: CC BY 4.0
 Includes text: yes
 Genre: news
 Lemmas: manual native
@@ -47,6 +47,6 @@ Features: manual native
 Relations: manual native
 Contributors: Duran, Magali Sanches; Lopes, Lucelene; Nunes, Maria das Graças Volpe; Pardo, Thiago Alexandre Salgueiro
 Contributing: elsewhere
-Contact: elvis.desouza99@gmail.com
+Contact: taspardo@icmc.usp.br
 ===============================================================================
 </pre>

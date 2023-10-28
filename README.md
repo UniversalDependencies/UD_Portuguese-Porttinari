@@ -4,6 +4,8 @@ Porttinari-base [(Duran et al., 2023)](https://sol.sbc.org.br/index.php/stil/art
 
 # Introduction
 
+Porttinari-base [(Duran et al., 2023)](https://sol.sbc.org.br/index.php/stil/article/view/25443/25264) is the journalistic portion of Porttinari (which stands for “PORTuguese Treebank”), which shall be a large multigenre treebank for Portuguese [(Pardo et al., 2021)](https://sol.sbc.org.br/index.php/stil/article/view/17778/17612), following the "Universal Dependencies" international grammar framework [(de Marneffe et al., 2021)](https://aclanthology.org/2021.cl-2.11/).
+
 As reported by [Duran et al., (2023)](https://sol.sbc.org.br/index.php/stil/article/view/25443/25264), Porttinari is currently composed by three subcorpora with different characteristics and purposes:
 
 * Porttinari-base (released here), a corpus that is manually revised in detail to serve as gold standard (divided into training, development and test folds), with average annotation review agreement (kappa) of 97.8% and 96.2% for part of speech tags and dependency relations, respectively;

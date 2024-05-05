@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Portuguese-Porttinari:
-commit 44c4bd37030372d3ed018b39520f51d0230a07ca
+commit d8b80b75d86b4c350b603f1b33e496ea7e4305bd
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 23:54:59 2023 +0100
+Date:   Mon Nov 6 12:54:13 2023 +0100
 Size: counted 168080 of 168080 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.2488801130735.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,15 +20,26 @@ Features: source of annotation (from README) factor is 1.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL         72
-Udapi: found 72 bugs.
+               TOTAL         67
+Udapi: found 67 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 168080 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-Porttinari/pt_porttinari-ud-dev.conllu
+[Line 2666 Sent FOLHA_DOC003081_SENT016 Node 15]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+Warnings: 1
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-Porttinari/pt_porttinari-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-Porttinari/pt_porttinari-ud-train.conllu
+[Line 3438 Sent FOLHA_DOC003050_SENT008 Node 16]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3437 Sent FOLHA_DOC003050_SENT008 Node 15]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 62878 Sent FOLHA_DOC002022_SENT028 Node 11]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 94528 Sent FOLHA_DOC003068_SENT004 Node 16]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 94527 Sent FOLHA_DOC003068_SENT004 Node 15]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 114092 Sent FOLHA_DOC003225_SENT016 Node 2]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 142267 Sent FOLHA_DOC004028_SENT013 Node 13]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 142266 Sent FOLHA_DOC004028_SENT013 Node 12]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+Warnings: 8
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
@@ -37,8 +48,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.741838679799299) = 0.190215046102384
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.995716325559257) = 0.306374254018233
+(weight=0.307692307692308) * (score{udapi}=0.996013802950976) = 0.306465785523377
 (weight=0.0769230769230769) * (score{udeprels}=0.891891891891892) = 0.0686070686070686
-(TOTAL score=0.847247650778968) * (availability=1) * (validity=1) = 0.847247650778968
+(TOTAL score=0.847339182284112) * (availability=1) * (validity=1) = 0.847339182284112
 STARS = 4
-UD_Portuguese-Porttinari	0.847247650778968	4
+UD_Portuguese-Porttinari	0.847339182284112	4

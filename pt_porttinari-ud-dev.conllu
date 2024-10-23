@@ -10620,7 +10620,7 @@
 11	e	e	CCONJ	_	_	16	cc	12.1:cc	_
 12	não	não	ADV	_	_	16	orphan	12.1:advmod	_
 12.1	__NOFORM__	pensar	VERB	_	_	_	_	3:xcomp|6:conj:e	wordform=__EMPTY__
-13	só	só	ADV	_	_	16	advmod	16:advmod	_
+13	só	só	ADV	_	_	16	orphan	12.1:advmod	_
 14	com	com	ADP	_	_	16	case	16:case	_
 15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	_
 16	coração	coração	NOUN	_	Number=Sing	6	conj	12.1:obl:com	SpaceAfter=No

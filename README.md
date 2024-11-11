@@ -32,6 +32,8 @@ This work was carried out at the Center for Artificial Intelligence of the Unive
 
 # Changelog
 
+* 2024-11-15 v2.15
+  * Addition of Enhanced Universal Dependencies (EUD) annotation
 * 2023-11-15 v2.13
   * Initial release in Universal Dependencies: 1st version of Porttinari-base.
 

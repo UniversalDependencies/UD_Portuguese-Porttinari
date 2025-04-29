@@ -33,7 +33,7 @@ This work was carried out at the Center for Artificial Intelligence of the Unive
 # Changelog
 
 * 2025-05-15 v2.16 (Porttinari v2.1)
-  * Inclusion of ExtPost
+  * Inclusion of ExtPos
   * Removal of `SpaceAfter=No` in the last token of sentences
 * 2024-11-15 v2.15 (Porttinari v2.0)
   * Addition of Enhanced Universal Dependencies (EUD) annotation

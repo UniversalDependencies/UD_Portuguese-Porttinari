@@ -20,11 +20,11 @@
     <tag name="ADV">6408</tag><!-- não, mais, também, ainda, já, muito, só, depois, hoje, antes -->
     <tag name="AUX">4806</tag><!-- ser, estar, ter, ir, haver, vir -->
     <tag name="CCONJ">4211</tag><!-- e, mas, ou, porém, já, nem, contudo, tanto, portanto, como -->
-    <tag name="DET">24318</tag><!-- o, um, seu, esse, este, outro, todo, meu, algum, mesmo -->
+    <tag name="DET">24325</tag><!-- o, um, seu, esse, este, outro, todo, meu, algum, mesmo -->
     <tag name="INTJ">31</tag><!-- ah, nossa, né, ai, pô, amém, ave, caramba, eita, eureca -->
     <tag name="NOUN">31402</tag><!-- ano, dia, vez, pessoa, país, empresa, tempo, caso, parte, presidente -->
-    <tag name="NUM">3218</tag><!-- um, dois, três, mil, 20, quatro, 30, 2016, 2018, 12 -->
-    <tag name="PRON">6415</tag><!-- que, ele, o, se, isso, eu, quem, me, tudo, você -->
+    <tag name="NUM">3214</tag><!-- um, dois, três, mil, 20, quatro, 30, 2016, 2018, 12 -->
+    <tag name="PRON">6412</tag><!-- que, ele, o, se, isso, eu, quem, me, tudo, você -->
     <tag name="PROPN">10905</tag><!-- Brasil, Paulo, São, EUA, Rio, Temer, JBS, Folha, Estado, Doria -->
     <tag name="PUNCT">22316</tag><!-- ,, ., ", (, ), :, -, ?, ', [ -->
     <tag name="SCONJ">2345</tag><!-- que, se, quando, como, porque, enquanto, embora, pois, quanto, caso -->
@@ -33,13 +33,19 @@
     <tag name="X">246</tag><!-- bitcoin, car, safety, ale, bitcoins, pale, rohingyas, capita, corpus, country -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="38">
+  <feats unique="44">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,AUX,NOUN">162</feat><!-- segunda, pra, quarta, sexta, quinta, sr., terça, km, tá, tel. -->
     <feat name="Case" value="Acc" upos="PRON">311</feat><!-- o, lo, me, nos, se, a, la, los, os, as -->
     <feat name="Case" value="Dat" upos="PRON">181</feat><!-- me, mim, si, nos, lhe, se, lhes, te -->
     <feat name="Case" value="Nom" upos="PRON">2001</feat><!-- se, ele, ela, eu, eles, você, elas, nós, vocês, Tu -->
     <feat name="Definite" value="Def" upos="DET">18892</feat><!-- o, a, os, as -->
-    <feat name="Definite" value="Ind" upos="DET">2281</feat><!-- um, uma, uns, umas -->
+    <feat name="Definite" value="Ind" upos="DET">2285</feat><!-- um, uma, uns, umas -->
+    <feat name="ExtPos" value="ADP" upos="ADP,ADV,DET">41</feat><!-- em, por, de, quanto, para, Frente, tal -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET">285</feat><!-- mais, cerca, a, cada, por, um, de, ainda, menos, Enquanto -->
+    <feat name="ExtPos" value="CCONJ" upos="ADP,ADV,CCONJ,PRON">77</feat><!-- em, ou, tanto, bem, só, assim, de, Isto -->
+    <feat name="ExtPos" value="NOUN" upos="NOUN">3</feat><!-- volta -->
+    <feat name="ExtPos" value="PRON" upos="PRON">154</feat><!-- o, os, tudo, a, as, isso, aquilo -->
+    <feat name="ExtPos" value="SCONJ" upos="ADP,ADV,DET,SCONJ,VERB">479</feat><!-- de, a, para, assim, ainda, como, depois, com, desde, já -->
     <feat name="Foreign" value="Yes" upos="ADJ,NOUN,X">383</feat><!-- internet, e-mail, bitcoin, fintechs, deficit, car, chef, on-line, safety, ale -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,VERB">29253</feat><!-- a, as, uma, sua, ela, essa, pessoas, esta, vez, parte -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">35317</feat><!-- o, os, um, ele, isso, anos, seu, esse, ano, este -->
@@ -48,20 +54,20 @@
     <feat name="Mood" value="Ind" upos="AUX,VERB">13675</feat><!-- é, foi, tem, diz, são, está, há, disse, pode, era -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">686</feat><!-- seja, tenha, fosse, for, tivesse, quiser, sejam, tenham, haja, possam -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,PRON,VERB">20322</feat><!-- os, as, anos, são, foram, pessoas, eles, seus, estão, outros -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,VERB">64451</feat><!-- o, a, é, um, uma, foi, ele, isso, tem, sua -->
-    <feat name="NumType" value="Card" upos="NUM">3208</feat><!-- um, dois, uma, três, duas, mil, 20, quatro, 30, 2016 -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,VERB">64455</feat><!-- o, a, é, um, uma, foi, ele, isso, tem, sua -->
+    <feat name="NumType" value="Card" upos="NUM">3204</feat><!-- um, dois, uma, três, duas, mil, 20, quatro, 30, 2016 -->
     <feat name="NumType" value="Frac" upos="NUM">10</feat><!-- meia, meio -->
     <feat name="NumType" value="Ord" upos="ADJ">386</feat><!-- primeira, primeiro, segundo, segunda, terceiro, 1º, terceira, primeiros, primeiras, quarta -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">1938</feat><!-- eu, me, nos, meu, minha, nós, consigo, temos, estamos, nossa -->
     <feat name="Person" value="2" upos="PRON,VERB">125</feat><!-- você, vocês, te, Tu, beija, olha, Experimenta, Para, Taca, mexe -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">17127</feat><!-- é, se, foi, o, ele, tem, sua, diz, são, está -->
     <feat name="Poss" value="Yes" upos="DET,PRON">1030</feat><!-- sua, seu, seus, suas, meu, minha, nossa, nosso, nossos, meus -->
-    <feat name="PronType" value="Art" upos="DET">21173</feat><!-- o, a, os, as, um, uma, uns, umas -->
+    <feat name="PronType" value="Art" upos="DET">21177</feat><!-- o, a, os, as, um, uma, uns, umas -->
     <feat name="PronType" value="Dem" upos="DET,PRON">2292</feat><!-- o, isso, esse, essa, este, esta, a, mesmo, os, esses -->
     <feat name="PronType" value="Ind" upos="DET,PRON">1729</feat><!-- quem, tudo, outros, cada, outro, todos, mais, alguns, nada, todo -->
-    <feat name="PronType" value="Int" upos="DET,PRON">85</feat><!-- que, qual, quem, quais, quê -->
+    <feat name="PronType" value="Int" upos="DET,PRON">86</feat><!-- que, qual, quem, quais, quê -->
     <feat name="PronType" value="Prs" upos="DET,PRON">3523</feat><!-- se, ele, sua, seu, ela, eu, eles, seus, me, você -->
-    <feat name="PronType" value="Rel" upos="DET,PRON">1931</feat><!-- que, qual, quem, quais, cuja, cujo, cujas, cujos -->
+    <feat name="PronType" value="Rel" upos="DET,PRON">1930</feat><!-- que, qual, quem, quais, cuja, cujo, cujas, cujos -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">589</feat><!-- será, serão, terá, poderá, for, quiser, irá, terão, deverá, estará -->
     <feat name="Tense" value="Imp" upos="AUX,VERB">1179</feat><!-- era, estava, tinha, havia, eram, tinham, estavam, haviam, fazia, queria -->
     <feat name="Tense" value="Past" upos="AUX,VERB">4455</feat><!-- foi, disse, foram, teve, afirmou, fez, começou, ficou, houve, chegou -->
@@ -77,14 +83,14 @@
   <deps unique="44">
     <dep name="acl">1642</dep>
     <dep name="acl:relcl">1913</dep>
-    <dep name="advcl">2346</dep>
-    <dep name="advmod">6155</dep>
-    <dep name="amod">6640</dep>
+    <dep name="advcl">2345</dep>
+    <dep name="advmod">6148</dep>
+    <dep name="amod">6643</dep>
     <dep name="appos">1041</dep>
     <dep name="aux">808</dep>
     <dep name="aux:pass">988</dep>
-    <dep name="case">22531</dep>
-    <dep name="cc">4263</dep>
+    <dep name="case">22535</dep>
+    <dep name="cc">4260</dep>
     <dep name="ccomp">1111</dep>
     <dep name="ccomp:speech">676</dep>
     <dep name="conj">4606</dep>
@@ -93,24 +99,24 @@
     <dep name="csubj:outer">4</dep>
     <dep name="csubj:pass">1</dep>
     <dep name="det">24079</dep>
-    <dep name="discourse">249</dep>
+    <dep name="discourse">251</dep>
     <dep name="dislocated">77</dep>
     <dep name="expl">567</dep>
     <dep name="expl:impers">154</dep>
-    <dep name="fixed">1331</dep>
+    <dep name="fixed">1320</dep>
     <dep name="flat">92</dep>
     <dep name="flat:foreign">68</dep>
     <dep name="flat:name">3356</dep>
     <dep name="iobj">96</dep>
     <dep name="list">27</dep>
-    <dep name="mark">4330</dep>
-    <dep name="nmod">12605</dep>
+    <dep name="mark">4329</dep>
+    <dep name="nmod">12609</dep>
     <dep name="nsubj">9547</dep>
     <dep name="nsubj:outer">97</dep>
     <dep name="nsubj:pass">706</dep>
     <dep name="nummod">1793</dep>
     <dep name="obj">7260</dep>
-    <dep name="obl">9132</dep>
+    <dep name="obl">9142</dep>
     <dep name="obl:agent">496</dep>
     <dep name="orphan">67</dep>
     <dep name="parataxis">880</dep>

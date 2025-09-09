@@ -46,6 +46,7 @@ This work was carried out at the Center for Artificial Intelligence of the Unive
 Data available since: UD v2.13
 License: CC BY 4.0
 Includes text: yes
+Parallel: no
 Genre: news
 Lemmas: manual native
 UPOS: manual native

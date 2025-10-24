@@ -32,6 +32,8 @@ This work was carried out at the Center for Artificial Intelligence of the Unive
 
 # Changelog
 
+* 2025-11-15 v2.17 (Porttinari v3.0)
+  * Revision of linguistic phenomena such as participles, ordinal numbers, subject relations in adverbial clauses, and a few other annotation mistakes.
 * 2025-05-15 v2.16 (Porttinari v2.1)
   * Inclusion of ExtPos
   * Removal of `SpaceAfter=No` in the last token of sentences

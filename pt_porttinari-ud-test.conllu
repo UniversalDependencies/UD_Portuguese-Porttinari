@@ -17900,7 +17900,6 @@
 
 # sent_id = FOLHA_DOC003193_SENT016
 # text = Um acordo feito pelo setor de embalagens estabelece redução em 22% da massa de resíduos destinada aos aterros e lixões até o final de 2018.
-# tags = TODO
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	9:nsubj	_
 3	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	2:acl	_

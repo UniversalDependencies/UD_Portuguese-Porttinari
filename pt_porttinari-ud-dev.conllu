@@ -107,7 +107,7 @@
 # sent_id = FOLHA_DOC004096_SENT029
 # text = Para se livrar do problema, dobrou a aposta e injetou mais R$ 2 bilhões na JBS.
 1	Para	para	ADP	_	_	3	mark	3:mark	_
-2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	3	expl	3:expl	_
+2	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	3	expl	3:expl	_
 3	livrar	livrar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	8	advcl	8:advcl:para|12:advcl:para	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	6:case	_
@@ -414,7 +414,7 @@
 20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	21:det	_
 21	site	site	NOUN	_	Gender=Masc|Number=Sing	14	obl	14:obl:em	_
 22	de	de	ADP	_	_	23	case	23:case	_
-23	crowdfunding	crowdfunding	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	21	nmod	21:nmod:de	_
+23	crowdfunding	crowdfunding	X	_	Foreign=Yes	21	nmod	21:nmod:de	_
 24	e	e	CCONJ	_	_	25	cc	25:cc	_
 25	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	conj	14:conj:e	_
 26	R$	R$	SYM	_	_	25	obj	25:obj	_
@@ -723,7 +723,7 @@
 # text = Ele não se esquece de sentir que a cidade "navegava sobre ondas e depois foi espancada com marteladas" no abalo anterior.
 1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj|6:nsubj	_
 2	não	não	ADV	_	_	4	advmod	4:advmod	_
-3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	4:expl	_
+3	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	4	expl	4:expl	_
 4	esquece	esquecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	de	de	ADP	_	_	6	mark	6:mark	_
 6	sentir	sentir	VERB	_	VerbForm=Inf	4	xcomp	4:xcomp	_
@@ -872,7 +872,7 @@
 8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	9:det	_
 9	cidadania	cidadania	NOUN	_	Gender=Fem|Number=Sing	6	nmod	6:nmod:para	_
 10	global	global	ADJ	_	Number=Sing	9	amod	9:amod	_
-11	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	12	expl	12:expl	_
+11	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	12	expl	12:expl	_
 12	torne	tornar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	3:csubj	_
 13	mais	mais	ADV	_	_	14	advmod	14:advmod	_
 14	contenciosa	contencioso	ADJ	_	Gender=Fem|Number=Sing	12	xcomp	12:xcomp	SpaceAfter=No
@@ -975,7 +975,7 @@
 
 # sent_id = FOLHA_DOC003142_SENT040
 # text = Indicado como melhor diretor de arte, ele tem no currículo filmes díspares como "O Abutre" e "Planeta dos Macacos: o Confronto".
-1	Indicado	indicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	advcl	9:advcl	_
+1	Indicado	indicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	advcl	9:advcl	_
 2	como	como	ADP	_	_	4	case	4:case	_
 3	melhor	melhor	ADJ	_	Number=Sing	4	amod	4:amod	_
 4	diretor	diretor	NOUN	_	Gender=Masc|Number=Sing	1	obl	1:obl:como	_
@@ -1071,7 +1071,7 @@
 # text = O dólar se valorizou em relação ao real, também como reflexo da movimentação financeira menor.
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	_
 2	dólar	dólar	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	4:nsubj	_
-3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	4:expl	_
+3	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	4	expl	4:expl	_
 4	valorizou	valorizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 5	em	em	ADP	_	_	6	case	6:case	_
 6	relação	relação	NOUN	_	Gender=Fem|Number=Sing	4	obl	4:obl:em	_
@@ -1235,7 +1235,7 @@
 14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	15:det	_
 15	contas	conta	NOUN	_	Gender=Fem|Number=Plur	12	nmod	12:nmod:sobre	_
 16	de	de	ADP	_	_	17	case	17:case	_
-17	e-mail	e-mail	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	15	nmod	15:nmod:de	SpaceAfter=No
+17	e-mail	e-mail	X	_	Foreign=Yes	15	nmod	15:nmod:de	SpaceAfter=No
 18	"	"	PUNCT	_	_	5	punct	5:punct	SpaceAfter=No
 19	,	,	PUNCT	_	_	5	punct	5:punct	_
 20	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -1401,7 +1401,7 @@
 8	em	em	ADP	_	_	10	case	10:case	_
 9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	10:det	_
 10	lugar	lugar	NOUN	_	Gender=Masc|Number=Sing	7	obl	7:obl:em	_
-11	alinhado	alinhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	10	acl	10:acl	_
+11	alinhado	alinhado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	10	amod	10:amod	_
 12	com	com	ADP	_	_	14	case	14:case	_
 13	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	14:det	_
 14	estilo	estilo	NOUN	_	Gender=Masc|Number=Sing	11	obl	11:obl:com	_
@@ -1505,7 +1505,7 @@
 2	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	6:nsubj	_
 3	de	de	ADP	_	_	4	case	4:case	_
 4	Padron	Padron	PROPN	_	_	2	nmod	2:nmod:de	_
-5	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	6	expl	6:expl	_
+5	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	6	expl	6:expl	_
 6	desenrola	desenrolar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	9:punct	_
 8	com	com	ADP	_	_	9	case	9:case	_
@@ -1769,15 +1769,15 @@
 11	que	que	SCONJ	_	_	13	mark	13:mark	_
 12	"	"	PUNCT	_	_	13	punct	13:punct	SpaceAfter=No
 13	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	10:ccomp	_
-14	estar	estar	AUX	_	VerbForm=Inf	17	cop	17:cop	_
+14	estar	estar	AUX	_	VerbForm=Inf	21	aux	21:aux	_
 15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	17:det	_
 16	maior	maior	ADJ	_	Number=Sing	17	amod	17:amod	_
-17	bondão	bondão	NOUN	_	Gender=Masc|Number=Sing	13	xcomp	13:xcomp	_
+17	bondão	bondão	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	21:nsubj	_
 18-19	na	_	_	_	_	_	_	_	_
 18	em	em	ADP	_	_	20	case	20:case	_
 19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	20:det	_
-20	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	17	nmod	17:nmod:em	_
-21	assistindo	assistir	VERB	_	VerbForm=Ger	17	acl	17:acl	SpaceAfter=No
+20	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	21	obl	21:obl:em	_
+21	assistindo	assistir	VERB	_	VerbForm=Ger	13	xcomp	13:xcomp	SpaceAfter=No
 22	"	"	PUNCT	_	_	13	punct	13:punct	SpaceAfter=No
 23	.	.	PUNCT	_	_	3	punct	3:punct	_
 
@@ -1901,7 +1901,7 @@
 3-4	pelo	_	_	_	_	_	_	_	_
 3	por	por	ADP	_	_	6	case	6:case	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	_
-5	2º	2º	ADJ	_	Gender=Masc|NumType=Ord	6	amod	6:amod	_
+5	2º	2º	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	6	amod	6:amod	_
 6	dia	dia	NOUN	_	Gender=Masc|Number=Sing	2	obl	2:obl:por	_
 7	com	com	ADP	_	_	8	case	8:case	_
 8	feriado	feriado	NOUN	_	Gender=Masc|Number=Sing	2	obl	2:obl:com	_
@@ -2135,7 +2135,7 @@
 3	anos	ano	NOUN	_	Gender=Masc|Number=Plur	1	obj	1:obj	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	1:punct	_
 5	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	6	det	6:det	_
-6	porcentagens	porcentagem	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	11:nsubj	_
+6	porcentagens	porcentagem	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	11:nsubj|14:nsubj	_
 7	eram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	cop	11:cop|14:cop	_
 8	de	de	ADP	_	_	11	case	11:case	_
 9	respectivamente	respectivamente	ADV	_	_	11	advmod	11:advmod	_
@@ -2156,17 +2156,17 @@
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	4:det	_
 4	USP	USP	PROPN	_	_	2	obj	2:obj	_
 5	em	em	ADP	_	_	6	case	6:case	_
-6	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	2	obl	2:obl:em	_
+6	primeiro	primeiro	NUM	_	Gender=Masc|Number=Sing|NumType=Ord	2	obl	2:obl:em	_
 7	em	em	ADP	_	_	8	case	8:case|10:case	_
-8	PD	PD	PROPN	_	_	6	obl	6:obl:em	_
+8	PD	PD	PROPN	_	_	6	nmod	6:nmod:em	_
 9	e	e	CCONJ	_	_	10	cc	10:cc	_
-10	PDIP	PDIP	PROPN	_	_	8	conj	6:obl:em|8:conj:e	SpaceAfter=No
+10	PDIP	PDIP	PROPN	_	_	8	conj	6:nmod:em|8:conj:e	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	14:punct	_
 12	e	e	CCONJ	_	_	14	cc	14:cc	_
 13	em	em	ADP	_	_	14	case	14:case	_
-14	terceiro	terceiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	6	conj	2:obl:em|6:conj:e	_
+14	terceiro	terceiro	NUM	_	Gender=Masc|Number=Sing|NumType=Ord	6	conj	2:obl:em|6:conj:e	_
 15	em	em	ADP	_	_	16	case	16:case	_
-16	PDM	PDM	PROPN	_	_	14	obl	14:obl:em	SpaceAfter=No
+16	PDM	PDM	PROPN	_	_	14	nmod	14:nmod:em	SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	2:punct	_
 
 # sent_id = FOLHA_DOC004120_SENT009
@@ -2276,13 +2276,13 @@
 
 # sent_id = FOLHA_DOC002012_SENT015
 # text = Segundo, será que os bancos se tornarão menos importantes quando os negócios de empréstimos forem transferidos para fora do perímetro regulatório?
-1	Segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	8	advmod	8:advmod	SpaceAfter=No
+1	Segundo	segundo	NUM	_	Gender=Masc|Number=Sing|NumType=Ord	8	discourse	8:discourse	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	1:punct	_
 3	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	discourse	8:discourse	_
 4	que	que	SCONJ	_	_	8	discourse	8:discourse	_
 5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	6:det	_
 6	bancos	banco	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	8:nsubj|10:nsubj	_
-7	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	8	expl	8:expl	_
+7	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	8	expl	8:expl	_
 8	tornarão	tornar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_
 9	menos	menos	ADV	_	_	10	advmod	10:advmod	_
 10	importantes	importante	ADJ	_	Number=Plur	8	xcomp	8:xcomp	_
@@ -2378,7 +2378,7 @@
 
 # sent_id = FOLHA_DOC004052_SENT006
 # text = Indagado sobre a possibilidade de deixar o partido, Doria respondeu que não tem a intenção de mudar de legenda.
-1	Indagado	indagar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	11	advcl	11:advcl	_
+1	Indagado	indagar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	advcl	11:advcl	_
 2	sobre	sobre	ADP	_	_	4	case	4:case	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	4:det	_
 4	possibilidade	possibilidade	NOUN	_	Gender=Fem|Number=Sing	1	obl	1:obl:sobre	_
@@ -2655,7 +2655,7 @@
 5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	_
 6	introdução	introdução	NOUN	_	Gender=Fem|Number=Sing	3	obl	3:obl:com	_
 7	quase	quase	ADV	_	_	8	advmod	8:advmod	_
-8	gospel	gospel	ADJ	_	Foreign=Yes|Number=Sing	6	amod	6:amod	_
+8	gospel	gospel	X	_	Foreign=Yes	6	amod	6:amod	_
 9	antes	antes	ADV	_	_	3	advmod	3:advmod	_
 10	de	de	ADP	_	_	11	mark	11:mark	_
 11	embalar	embalar	VERB	_	VerbForm=Inf	9	acl	9:acl:de	_
@@ -2665,7 +2665,7 @@
 14	funk	funk	X	_	Foreign=Yes	11	obl	11:obl:em|18:nsubj|20:nsubj	_
 15	dance	dance	X	_	Foreign=Yes	14	flat:foreign	14:flat:foreign	_
 16	que	que	PRON	_	PronType=Rel	18	nsubj	14:ref	_
-17	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	18	expl	18:expl	_
+17	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	18	expl	18:expl	_
 18	tornou	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_
 19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	20:det	_
 20	hit	hit	NOUN	_	Gender=Masc|Number=Sing	18	xcomp	18:xcomp	_
@@ -2675,7 +2675,7 @@
 # sent_id = FOLHA_DOC003031_SENT015
 # text = A direção é de Kristina Grozeva e Petar Valchanov, também autores do roteiro, com Decho Taralezhkov.
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	_
-2	direção	direção	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	5:nsubj	_
+2	direção	direção	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	5:nsubj|8:nsubj	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop|8:cop	_
 4	de	de	ADP	_	_	5	case	5:case	_
 5	Kristina	Kristina	PROPN	_	_	0	root	0:root	_
@@ -2852,7 +2852,7 @@
 16-17	dos	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	18:case	_
 17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	18:det	_
-18	blockbusters	blockbuster	NOUN	_	Foreign=Yes|Gender=Masc|Number=Plur	15	obl	15:obl:de	_
+18	blockbusters	blockbusters	X	_	Foreign=Yes	15	obl	15:obl:de	_
 19	americanos	americano	ADJ	_	Gender=Masc|Number=Plur	18	amod	18:amod	SpaceAfter=No
 20	.	.	PUNCT	_	_	15	punct	15:punct	_
 
@@ -2892,7 +2892,7 @@
 # text = A euforia se baseia na valorização de 276% da divisa no ano.
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	_
 2	euforia	euforia	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	4:nsubj	_
-3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	4:expl	_
+3	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	4	expl	4:expl	_
 4	baseia	basear	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5-6	na	_	_	_	_	_	_	_	_
 5	em	em	ADP	_	_	7	case	7:case	_
@@ -3148,7 +3148,7 @@
 9	duas	dois	NUM	_	Gender=Fem|NumType=Card	10	nummod	10:nummod	_
 10	coisas	coisa	NOUN	_	Gender=Fem|Number=Plur	12	nsubj	12:nsubj	_
 11	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
-12	ligadas	ligar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	0	root	0:root	_
+12	ligadas	ligado	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	0	root	0:root	_
 13	como	como	ADP	_	_	15	mark	15:mark	_
 14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	15:det	_
 15	lâminas	lâmina	NOUN	_	Gender=Fem|Number=Plur	12	advcl	12:advcl:como	_
@@ -3405,11 +3405,11 @@
 3	pretensões	pretensão	NOUN	_	Gender=Fem|Number=Plur	8	obl	8:obl:sem	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	3:punct	_
 5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	_
-6	comédia	comédia	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	8:nsubj	_
-7	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	8	expl	8:expl	_
+6	comédia	comédia	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	8:nsubj|10:nsubj	_
+7	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	8	expl	8:expl	_
 8	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	10:det	_
-10	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	8	obj	8:obj	_
+10	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	8	xcomp	8:xcomp	_
 11	interessante	interessante	ADJ	_	Number=Sing	10	amod	10:amod	_
 12	sobre	sobre	ADP	_	_	14	case	14:case	_
 13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	14:det	_
@@ -3458,7 +3458,7 @@
 18	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	19:cop	_
 19	capazes	capaz	ADJ	_	Number=Plur	0	root	0:root	_
 20	de	de	ADP	_	_	22	mark	22:mark	_
-21	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	22	expl	22:expl	_
+21	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	22	obj	22:obj	_
 22	encarar	encarar	VERB	_	VerbForm=Inf	19	acl	19:acl:de	_
 23-24	no	_	_	_	_	_	_	_	_
 23	em	em	ADP	_	_	25	case	25:case	_
@@ -3717,7 +3717,7 @@
 # text = "Como se trata do ex-presidente Lula, há todo um contexto político que acaba por dar uma repercussão gigantesca aos erros nos documentos".
 1	"	"	PUNCT	_	_	10	punct	10:punct	SpaceAfter=No
 2	Como	como	SCONJ	_	_	4	mark	4:mark	_
-3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	4:expl	_
+3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl:impers	4:expl:impers	_
 4	trata	tratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	10:advcl:como	_
 5-6	do	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	7:case	_
@@ -3761,7 +3761,7 @@
 8	nova	novo	ADJ	_	Gender=Fem|Number=Sing	9	amod	9:amod	_
 9	categoria	categoria	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	12:nsubj|14:nsubj	_
 10	literária	literário	ADJ	_	Gender=Fem|Number=Sing	9	amod	9:amod	_
-11	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	12	expl	12:expl	_
+11	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	12	expl	12:expl	_
 12	revelou	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	14:det	_
 14	mina	mina	NOUN	_	Gender=Fem|Number=Sing	12	xcomp	12:xcomp	_
@@ -3770,7 +3770,7 @@
 17	:	:	PUNCT	_	_	18	punct	18:punct	_
 18	livro	livro	NOUN	_	Gender=Masc|Number=Sing	14	appos	14:appos	_
 19	de	de	ADP	_	_	20	case	20:case	_
-20	youtuber	youtuber	NOUN	_	Foreign=Yes|Number=Sing	18	nmod	18:nmod:de	SpaceAfter=No
+20	youtuber	youtuber	X	_	Foreign=Yes	18	nmod	18:nmod:de	SpaceAfter=No
 21	.	.	PUNCT	_	_	12	punct	12:punct	_
 
 # sent_id = FOLHA_DOC001034_SENT004
@@ -3883,7 +3883,7 @@
 1	Polícia	polícia	NOUN	_	Number=Sing	2	nsubj	2:nsubj	_
 2	libera	liberar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	motorista	motorista	NOUN	_	Number=Sing	2	obj	2:obj	_
-4	envolvido	envolver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	acl	3:acl	_
+4	envolvido	envolvido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	3	amod	3:amod	_
 5	em	em	ADP	_	_	6	case	6:case	_
 6	colisão	colisão	NOUN	_	Gender=Fem|Number=Sing	4	obl	4:obl:em|8:nsubj	_
 7	que	que	PRON	_	PronType=Rel	8	nsubj	6:ref	_
@@ -3898,7 +3898,7 @@
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	_
 2	São	São	PROPN	_	_	5	nsubj	5:nsubj|11:nsubj	_
 3	Paulo	Paulo	PROPN	_	_	2	flat:name	2:flat:name	_
-4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	5:expl	_
+4	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	5	expl	5:expl	_
 5	enervou	enervar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 6	em	em	ADP	_	_	7	case	7:case	_
 7	campo	campo	NOUN	_	Gender=Masc|Number=Sing	5	obl	5:obl:em	SpaceAfter=No
@@ -3919,11 +3919,11 @@
 # sent_id = FOLHA_DOC000172_SENT032
 # text = A prestação de contas é aberta na página do site.
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	_
-2	prestação	prestação	NOUN	_	Number=Sing	6	nsubj	6:nsubj	_
+2	prestação	prestação	NOUN	_	Number=Sing	6	nsubj:pass	6:nsubj:pass	_
 3	de	de	ADP	_	_	4	case	4:case	_
 4	contas	conta	NOUN	_	Gender=Fem|Number=Plur	2	nmod	2:nmod:de	_
-5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
-6	aberta	aberto	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	0:root	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	6:aux:pass	_
+6	aberta	abrir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	0:root	_
 7-8	na	_	_	_	_	_	_	_	_
 7	em	em	ADP	_	_	9	case	9:case	_
 8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	9:det	_
@@ -4312,7 +4312,7 @@
 5	que	que	PRON	_	PronType=Rel	9	nsubj	4:ref	_
 6	não	não	ADV	_	_	9	advmod	9:advmod	_
 7	irão	ir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	aux	9:aux	_
-8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	9:expl	_
+8	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	9	expl	9:expl	_
 9	calar	calar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	4	acl:relcl	4:acl:relcl	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	2:punct	_
 
@@ -4394,7 +4394,7 @@
 # sent_id = FOLHA_DOC003175_SENT003
 # text = A acusação fragiliza o presidente, mas deixa claro que o "quadrilhão" do PMDB da Câmara deve parte de seus lucros aos governos Lula e Dilma.
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	_
-2	acusação	acusação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	3:nsubj|8:nsubj|9:nsubj	_
+2	acusação	acusação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	3:nsubj|8:nsubj	_
 3	fragiliza	fragilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	_
 5	presidente	presidente	NOUN	_	Number=Sing	3	obj	3:obj	SpaceAfter=No
@@ -4638,7 +4638,7 @@
 6	anos	ano	NOUN	_	Gender=Masc|Number=Plur	3	nmod	3:nmod:de	_
 7	atrás	atrás	ADV	_	_	6	advmod	6:advmod	_
 8	não	não	ADV	_	_	10	advmod	10:advmod	_
-9	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	10	expl	10:expl	_
+9	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	10	expl	10:expl	_
 10	mostravam	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	advcl	16:advcl:se	_
 11	sustentáveis	sustentável	ADJ	_	Number=Plur	10	xcomp	10:xcomp	SpaceAfter=No
 12	,	,	PUNCT	_	_	10	punct	10:punct	_
@@ -4824,7 +4824,7 @@
 18	diplomatas	diplomata	NOUN	_	Number=Plur	20	nsubj	20:nsubj	_
 19	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	20:cop	_
 20	liberais	liberal	NOUN	_	Number=Plur	4	parataxis	4:parataxis	_
-21	aliados	aliar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	20	acl	20:acl	_
+21	aliados	aliado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	20	amod	20:amod	_
 22	a	a	ADP	_	_	23	case	23:case	_
 23	Hillary	Hillary	PROPN	_	_	21	obl	21:obl:a	_
 24	Clinton	Clinton	PROPN	_	_	23	flat:name	23:flat:name	SpaceAfter=No
@@ -5158,11 +5158,11 @@
 4	em	em	ADP	_	_	5	case	5:case	_
 5	diante	diante	ADV	_	_	3	advmod	3:advmod	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	3:punct	_
-7	Korolev	Korolev	PROPN	_	_	9	nsubj	9:nsubj	_
-8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	9:expl	_
+7	Korolev	Korolev	PROPN	_	_	9	nsubj	9:nsubj|11:nsubj	_
+8	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	9	expl	9:expl	_
 9	tornou	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	11:det	_
-11	herói	herói	NOUN	_	Gender=Masc|Number=Sing	9	obj	9:obj	_
+11	herói	herói	NOUN	_	Gender=Masc|Number=Sing	9	xcomp	9:xcomp	_
 12-13	do	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	14:case	_
 13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	14:det	_
@@ -5194,7 +5194,7 @@
 17-18	na	_	_	_	_	_	_	_	_
 17	em	em	ADP	_	_	19	case	19:case	_
 18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	19:det	_
-19	internet	internet	NOUN	_	Foreign=Yes|Gender=Fem|Number=Sing	15	obl	15:obl:em	SpaceAfter=No
+19	internet	internet	X	_	Foreign=Yes	15	obl	15:obl:em	SpaceAfter=No
 20	"	"	PUNCT	_	_	7	punct	7:punct	SpaceAfter=No
 21	.	.	PUNCT	_	_	3	punct	3:punct	_
 
@@ -5315,7 +5315,7 @@
 5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	6:det	_
 6	leilões	leilão	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	7:nsubj	_
 7	permitem	permitir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-8	pagar	pagar	VERB	_	VerbForm=Inf	7	ccomp	7:ccomp	_
+8	pagar	pagar	VERB	_	VerbForm=Inf	7	xcomp	7:xcomp	_
 9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	10:det	_
 10	animal	animal	NOUN	_	Number=Sing	8	obj	8:obj	_
 11	em	em	ADP	_	_	14	case	14:case	_
@@ -5483,7 +5483,7 @@
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	3:det	_
 3	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	6	obl	6:obl:segundo	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	3:punct	_
-5	seriam	ser	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	6	aux:pass	6:aux:pass|21:aux:pass	_
+5	seriam	ser	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	6	aux:pass	6:aux:pass	_
 6	concedidos	conceder	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	0:root	_
 7-8	à	_	_	_	_	_	_	_	_
 7	a	a	ADP	_	_	9	case	9:case	_
@@ -5495,12 +5495,12 @@
 13	,	,	PUNCT	_	_	21	punct	21:punct	_
 14	e	e	CCONJ	_	_	21	cc	21:cc	_
 15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	_
-16	capital	capital	NOUN	_	Number=Sing	21	nsubj	21:nsubj	_
+16	capital	capital	NOUN	_	Number=Sing	21	nsubj:pass	21:nsubj:pass	_
 17-18	da	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	19:case	_
 18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	19:det	_
 19	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	16	nmod	16:nmod:de	_
-20	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	21	cop	21:cop	_
+20	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	21	aux:pass	21:aux:pass	_
 21	aberto	abrir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	conj	6:conj:e	SpaceAfter=No
 22	.	.	PUNCT	_	_	6	punct	6:punct	_
 
@@ -6264,7 +6264,7 @@
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	2:det	_
 2	desafios	desafio	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	5:nsubj|13:nsubj	_
 3	que	que	PRON	_	PronType=Rel	5	nsubj	2:ref	_
-4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	5:expl	_
+4	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	5	expl	5:expl	_
 5	puseram	pôr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_
 6	perante	perante	ADP	_	_	7	case	7:case	_
 7	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	5:obl:perante	_
@@ -6582,7 +6582,7 @@
 # sent_id = FOLHA_DOC002078_SENT020
 # text = Se confirmado, será o pior resultado de sua história.
 1	Se	se	SCONJ	_	_	2	mark	2:mark	_
-2	confirmado	confirmar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	7	advcl	7:advcl:se	SpaceAfter=No
+2	confirmado	confirmar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	advcl	7:advcl:se	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	2:punct	_
 4	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	cop	7:cop	_
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	_
@@ -6834,7 +6834,7 @@
 5	dois	dois	NUM	_	Gender=Masc|NumType=Card	6	nummod	6:nummod	_
 6	laterais	lateral	NOUN	_	Number=Plur	3	nsubj:pass	3:nsubj:pass	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	9:punct	_
-8	Petros	Petros	PROPN	_	_	9	nsubj	9:nsubj|13:nsubj	_
+8	Petros	Petros	PROPN	_	_	9	nsubj	9:nsubj	_
 9	deixou	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	3:conj	_
 10	de	de	ADP	_	_	13	mark	13:mark	_
 11	ser	ser	AUX	_	VerbForm=Inf	13	cop	13:cop	_
@@ -7063,7 +7063,7 @@
 10	boliviano	boliviano	ADJ	_	Gender=Masc|Number=Sing	9	amod	9:amod	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	14:punct	_
 12	que	que	PRON	_	PronType=Rel	14	nsubj	4:ref|6:ref	_
-13	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	14	expl	14:expl	_
+13	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	14	expl	14:expl	_
 14	mostraram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	4:acl:relcl|6:acl:relcl	_
 15	divididos	dividido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	14	xcomp	14:xcomp	_
 16	quanto	quanto	ADV	_	_	14	advmod	14:advmod	_
@@ -7146,7 +7146,7 @@
 4	que	que	SCONJ	_	_	3	fixed	3:fixed	_
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	_
 6	presidente	presidente	NOUN	_	Number=Sing	8	nsubj	8:nsubj	_
-7	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	8	expl	8:expl	_
+7	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	8	expl	8:expl	_
 8	reúna	reunir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	2:acl:de_que	_
 9	ainda	ainda	ADV	_	_	12	advmod	12:advmod	_
 10-11	neste	_	_	_	_	_	_	_	_
@@ -7233,7 +7233,7 @@
 15	bolsas	bolsa	NOUN	_	Gender=Fem|Number=Plur	13	obl	13:obl:para|19:nsubj	_
 16	coletoras	coletor	ADJ	_	Gender=Fem|Number=Plur	15	amod	15:amod	_
 17	que	que	PRON	_	PronType=Rel	19	nsubj	15:ref	_
-18	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	19	expl	19:expl	_
+18	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	19	expl	19:expl	_
 19	ajustam	ajustar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	15:acl:relcl	_
 20-21	à	_	_	_	_	_	_	_	_
 20	a	a	ADP	_	_	22	case	22:case	_
@@ -7527,7 +7527,7 @@
 26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	27:det	_
 27	doença	doença	NOUN	_	Gender=Fem|Number=Sing	21	conj	18:nmod:a|21:conj:e	_
 28	propriamente	propriamente	ADV	_	_	29	advmod	29:advmod	_
-29	dita	dizer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	27	acl	27:acl	SpaceAfter=No
+29	dita	dizer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	27	acl	27:acl	SpaceAfter=No
 30	.	.	PUNCT	_	_	4	punct	4:punct	_
 
 # sent_id = FOLHA_DOC004032_SENT010
@@ -7689,7 +7689,7 @@
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	_
 2	herdeiro	herdeiro	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	3:nsubj|5:nsubj|6:nsubj|9:nsubj	_
 3	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	5:expl	_
+4	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	5	expl	5:expl	_
 5	tornando	tornar	VERB	_	VerbForm=Ger	3	xcomp	3:xcomp	_
 6	diretor	diretor	NOUN	_	Gender=Masc|Number=Sing	5	xcomp	5:xcomp	_
 7	estatutário	estatutário	ADJ	_	Gender=Masc|Number=Sing	6	amod	6:amod	_
@@ -7899,8 +7899,8 @@
 
 # sent_id = FOLHA_DOC001687_SENT056
 # text = A primeira foi reaberta na noite de quinta-feira da semana passada.
-1	A	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	nsubj:pass	4:nsubj:pass	_
-2	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	1	amod	1:amod	_
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	_
+2	primeira	primeiro	NUM	_	Gender=Fem|Number=Sing|NumType=Ord	4	nsubj:pass	4:nsubj:pass	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 4	reaberta	reabrir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	0:root	_
 5-6	na	_	_	_	_	_	_	_	_
@@ -8028,7 +8028,7 @@
 6	0	0	NUM	_	NumType=Card	4	nmod	4:nmod:a	_
 7-8	encaminhava-se	_	_	_	_	_	_	_	_
 7	encaminhava	encaminhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	_
-8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	7	expl	7:expl	_
+8	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	7	expl	7:expl	_
 9	quando	quando	SCONJ	_	_	11	mark	11:mark	_
 10	Jô	Jô	PROPN	_	_	11	nsubj	11:nsubj	_
 11	esticou	esticar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	7:advcl:quando	_
@@ -8084,7 +8084,7 @@
 14	melhorou	melhorar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 15	e	e	CCONJ	_	_	18	cc	18:cc	_
 16	agora	agora	ADV	_	_	18	advmod	18:advmod	_
-17	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	18	expl	18:expl	_
+17	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	18	expl	18:expl	_
 18	prepara	preparar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	14:conj:e	_
 19	para	para	ADP	_	_	20	mark	20:mark	_
 20	viver	viver	VERB	_	VerbForm=Inf	18	advcl	18:advcl:para	_
@@ -8181,7 +8181,7 @@
 9	livros	livro	NOUN	_	Gender=Masc|Number=Plur	8	obj	8:obj	_
 10	e	e	CCONJ	_	_	11	cc	11:cc	_
 11	atrações	atração	NOUN	_	Gender=Fem|Number=Plur	9	conj	8:obj|9:conj:e	_
-12	ligados	ligar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	9	acl	9:acl|11:acl	_
+12	ligados	ligado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	9	amod	9:amod|11:amod	_
 13	a	a	ADP	_	_	14	case	14:case	_
 14	elas	ele	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	12	obl	12:obl:a	SpaceAfter=No
 15	.	.	PUNCT	_	_	5	punct	5:punct	_
@@ -8309,7 +8309,7 @@
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	_
 2	senado	senado	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	5:nsubj	_
 3	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
-4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	5:expl	_
+4	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	5	expl	5:expl	_
 5	posicionar	posicionar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_
 6	sobre	sobre	ADP	_	_	8	case	8:case	_
 7	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	8:det	_
@@ -8396,7 +8396,7 @@
 19	papagaio	papagaio	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	20:nsubj|22:nsubj:pass	_
 20-21	viu-se	_	_	_	_	_	_	_	_
 20	viu	ver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-21	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	20	expl	20:expl	_
+21	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	20	expl	20:expl	_
 22	abandonado	abandonar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	20	xcomp	20:xcomp	_
 23-24	pelas	_	_	_	_	_	_	_	_
 23	por	por	ADP	_	_	25	case	25:case	_
@@ -8470,7 +8470,7 @@
 20	com	com	ADP	_	_	21	case	21:case	_
 21	reservas	reserva	NOUN	_	Gender=Masc|Number=Plur	24	obl	24:obl:com	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	21:punct	_
-23	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	24	expl	24:expl	_
+23	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	24	expl	24:expl	_
 24	afasta	afastar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	3:conj:e	SpaceAfter=No
 25	.	.	PUNCT	_	_	3	punct	3:punct	_
 
@@ -8818,7 +8818,7 @@
 7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	_
 8	setor	setor	NOUN	_	Gender=Masc|Number=Sing	3	nmod	3:nmod:em	_
 9	já	já	ADV	_	_	10	advmod	10:advmod	_
-10	saturado	saturar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	acl	8:acl	SpaceAfter=No
+10	saturado	saturado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	8	amod	8:amod	SpaceAfter=No
 11	,	,	PUNCT	_	_	3	punct	3:punct	_
 12	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 13	Gean	Gean	PROPN	_	_	12	nsubj	12:nsubj|22:nsubj	_
@@ -8938,7 +8938,7 @@
 14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	15:det	_
 15	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	18:nsubj	_
 16	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	_
-17	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	18	expl	18:expl	_
+17	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	18	expl	18:expl	_
 18	manter	manter	VERB	_	VerbForm=Inf	12	advcl	12:advcl:quando	_
 19-20	no	_	_	_	_	_	_	_	_
 19	em	em	ADP	_	_	21	case	21:case	_
@@ -8998,14 +8998,14 @@
 6-7	no	_	_	_	_	_	_	_	_
 6	em	em	ADP	_	_	8	case	8:case	_
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	_
-8	combate	combate	NOUN	_	Gender=Masc|Number=Sing	3	obl	3:obl:em	_
+8	combate	combate	NOUN	_	Gender=Masc|Number=Sing	5	obl	5:obl:em	_
 9-10	ao	_	_	_	_	_	_	_	_
 9	a	a	ADP	_	_	11	case	11:case	_
 10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	11:det	_
 11	aquecimento	aquecimento	NOUN	_	Gender=Masc|Number=Sing	8	nmod	8:nmod:a	_
 12	global	global	ADJ	_	Number=Sing	11	amod	11:amod	_
 13	para	para	ADP	_	_	14	mark	14:mark	_
-14	prevenir	prevenir	VERB	_	VerbForm=Inf	3	advcl	3:advcl:para	_
+14	prevenir	prevenir	VERB	_	VerbForm=Inf	4	acl	4:acl:para	_
 15	desastres	desastre	NOUN	_	Gender=Masc|Number=Plur	14	obj	14:obj	_
 16	naturais	natural	ADJ	_	Number=Plur	15	amod	15:amod	_
 17	semelhantes	semelhante	ADJ	_	Number=Plur	15	amod	15:amod	SpaceAfter=No
@@ -9071,7 +9071,7 @@
 # text = Ou que o que você disse é passível de punição e, quem sabe, criar uma dívida enorme como fruto de uma frase que você colocou numa música ou num livro?
 1	Ou	ou	CCONJ	_	_	8	cc	8:cc	_
 2	que	que	SCONJ	_	_	8	mark	8:mark|16:mark	_
-3	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	6:obj|8:nsubj	_
+3	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	6:obj|8:nsubj|16:nsubj	_
 4	que	que	PRON	_	PronType=Rel	6	obj	3:ref	_
 5	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	_
 6	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	3:acl:relcl	_
@@ -9120,7 +9120,7 @@
 9	periódico	periódico	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	13:nsubj	_
 10	supostamente	supostamente	ADV	_	_	11	advmod	11:advmod	_
 11	científico	científico	ADJ	_	Gender=Masc|Number=Sing	9	amod	9:amod	_
-12	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	13	expl	13:expl	_
+12	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	13	expl	13:expl	_
 13	presta	prestar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 14	a	a	ADP	_	_	15	case	15:case	_
 15	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	13	obl	13:obl:a	SpaceAfter=No
@@ -9128,9 +9128,9 @@
 
 # sent_id = FOLHA_DOC002012_SENT022
 # text = Dada a luta mundial contra o terrorismo e o crime organizado, essa é uma preocupação aguda.
-1	Dada	dar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	16	advcl	16:advcl	_
+1	Dada	dar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	16	advcl	16:advcl	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	3:det	_
-3	luta	luta	NOUN	_	Gender=Fem|Number=Sing	1	nsubj	1:nsubj	_
+3	luta	luta	NOUN	_	Gender=Fem|Number=Sing	1	nsubj:pass	1:nsubj:pass	_
 4	mundial	mundial	ADJ	_	Number=Sing	3	amod	3:amod	_
 5	contra	contra	ADP	_	_	7	case	7:case|10:case	_
 6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	_
@@ -9251,7 +9251,7 @@
 # sent_id = FOLHA_DOC000180_SENT006
 # text = Isso se repete até que ela entra, seguida por três homens sem rosto.
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	3:nsubj	_
-2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	3	expl	3:expl	_
+2	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	3	expl	3:expl	_
 3	repete	repetir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	até	até	ADP	_	ExtPos=SCONJ	7	mark	7:mark	_
 5	que	que	SCONJ	_	_	4	fixed	4:fixed	_
@@ -9270,7 +9270,7 @@
 # text = Se a edição deste ano do Festival de Toronto se provar mesmo uma vitrine para o Oscar do ano que vem, a categoria de melhor atriz estará repleta de anti-heroínas.
 1	Se	se	SCONJ	_	_	13	mark	13:mark	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	3:det	_
-3	edição	edição	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	13:nsubj	_
+3	edição	edição	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	13:nsubj|16:nsubj	_
 4-5	deste	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	6:case	_
 5	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	6:det	_
@@ -9281,11 +9281,11 @@
 9	Festival	Festival	PROPN	_	_	3	nmod	3:nmod:de	_
 10	de	de	ADP	_	_	11	case	11:case	_
 11	Toronto	Toronto	PROPN	_	_	9	flat:name	9:flat:name	_
-12	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	13	expl	13:expl	_
+12	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	13	expl	13:expl	_
 13	provar	provar	VERB	_	VerbForm=Inf	32	advcl	32:advcl:se	_
 14	mesmo	mesmo	ADV	_	_	13	advmod	13:advmod	_
 15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	16:det	_
-16	vitrine	vitrine	NOUN	_	Gender=Fem|Number=Sing	13	obj	13:obj	_
+16	vitrine	vitrine	NOUN	_	Gender=Fem|Number=Sing	13	xcomp	13:xcomp	_
 17	para	para	ADP	_	_	19	case	19:case	_
 18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	19:det	_
 19	Oscar	Oscar	PROPN	_	_	16	nmod	16:nmod:para	_
@@ -9386,7 +9386,7 @@
 5	sorriso	sorriso	NOUN	_	Gender=Masc|Number=Sing	1	nmod	1:nmod:com	_
 6	permanente	permanente	ADJ	_	Number=Sing	5	amod	5:amod	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	8:punct	_
-8	sentado	sentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	1:acl	_
+8	sentado	sentado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	1	amod	1:amod	_
 9	diante	diante	ADV	_	_	8	advmod	8:advmod	_
 10	de	de	ADP	_	_	12	case	12:case	_
 11	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	det	12:det	_
@@ -9976,7 +9976,7 @@
 5-6	à	_	_	_	_	_	_	_	_
 5	a	a	ADP	_	_	7	case	7:case	_
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	7:det	_
-7	internet	internet	NOUN	_	Foreign=Yes|Gender=Fem|Number=Sing	4	nmod	4:nmod:a	_
+7	internet	internet	X	_	Foreign=Yes	4	nmod	4:nmod:a	_
 8	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 9	regular	regular	VERB	_	VerbForm=Inf	8	xcomp	8:xcomp	_
 10	bitcoin	bitcoin	X	_	Foreign=Yes	9	obj	9:obj	SpaceAfter=No
@@ -10124,7 +10124,7 @@
 1	Alguns	algum	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	2:nsubj	_
 2	pensam	pensar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	que	que	SCONJ	_	_	5	mark	5:mark	_
-4	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	5	expl	5:expl	_
+4	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	5	expl	5:expl	_
 5	resume	resumir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp	_
 6-7	ao	_	_	_	_	_	_	_	_
 6	a	a	ADP	_	_	8	case	8:case	_
@@ -10156,8 +10156,8 @@
 
 # sent_id = FOLHA_DOC000237_SENT005
 # text = A primeira aponta para o efeito que a interação com os animais exerce sobre nosso sistema endócrino: tê-los por perto e gozar do carinho que eles nos dão reduz a liberação dos hormônios do estresse (que também levam à hipertensão e à imunossupressão) e aumenta a produção e a descarga dos mediadores químicos responsáveis pela sensação de prazer e felicidade, como serotonina, dopamina e ocitocina.
-1	A	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	3:nsubj	_
-2	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	1	amod	1:amod	_
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	_
+2	primeira	primeiro	NUM	_	Gender=Fem|Number=Sing|NumType=Ord	3	nsubj	3:nsubj	_
 3	aponta	apontar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	para	para	ADP	_	_	6	case	6:case	_
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	_
@@ -10266,7 +10266,7 @@
 
 # sent_id = FOLHA_DOC004096_SENT045
 # text = Procurada, a J&F disse que o assunto está sob sigilo da colaboração premiada.
-1	Procurada	procurar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	5	advcl	5:advcl	SpaceAfter=No
+1	Procurada	procurar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	advcl	5:advcl	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	1:punct	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	4:det	_
 4	J&F	J&F	PROPN	_	_	5	nsubj	5:nsubj	_
@@ -10502,7 +10502,7 @@
 5	de	de	ADP	_	_	6	case	6:case	_
 6	Telegram	Telegram	PROPN	_	_	4	nmod	4:nmod:de	_
 7	que	que	PRON	_	PronType=Rel	9	nsubj	4:ref	_
-8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	9:expl	_
+8	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	9	expl	9:expl	_
 9	chamava	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_
 10	"	"	PUNCT	_	_	11	punct	11:punct	SpaceAfter=No
 11	Gabinete	Gabinete	PROPN	_	_	9	xcomp	9:xcomp	_
@@ -10524,7 +10524,7 @@
 3	tá	estar	AUX	_	Abbr=Yes|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 4	saindo	sair	VERB	_	VerbForm=Ger	0	root	0:root	_
 5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	_
-6	enterrinho	enterrinho	NOUN	_	Gender=Masc|Number=Sing	4	obj	4:obj	_
+6	enterrinho	enterrinho	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	4:nsubj	_
 7	ali	ali	ADV	_	_	4	advmod	4:advmod	_
 8	agora	agora	ADV	_	_	4	advmod	4:advmod	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	4:punct	_
@@ -10839,11 +10839,11 @@
 15	em	em	ADP	_	_	17	case	17:case	_
 16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	17:det	_
 17	chão	chão	NOUN	_	Gender=Masc|Number=Sing	10	conj	10:conj:e	_
-18	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	17	advcl	17:advcl	_
+18	devido	dever	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	21	case	21:case	_
 19-20	à	_	_	_	_	_	_	_	_
-19	a	a	ADP	_	_	21	case	21:case	_
+19	a	a	ADP	_	_	18	fixed	18:fixed	_
 20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	21:det	_
-21	bolsa	bolsa	NOUN	_	Gender=Fem|Number=Sing	18	obl	18:obl:a	_
+21	bolsa	bolsa	NOUN	_	Gender=Fem|Number=Sing	17	nmod	17:nmod:a	_
 22	remexida	remexer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	21	acl	21:acl	SpaceAfter=No
 23	.	.	PUNCT	_	_	10	punct	10:punct	_
 
@@ -10891,7 +10891,7 @@
 2	mobilidade	mobilidade	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	6:nsubj|12:nsubj	_
 3	urbana	urbano	ADJ	_	Gender=Fem|Number=Sing	2	amod	2:amod	_
 4	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
-5	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	6	expl	6:expl	_
+5	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	6	expl	6:expl	_
 6	tornado	tornar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	0:root	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	8:punct	_
 8	cada	cada	DET	_	ExtPos=ADV|Number=Sing|PronType=Ind	6	advmod	6:advmod	_
@@ -11090,7 +11090,7 @@
 6	de	de	ADP	_	_	5	fixed	5:fixed	_
 7	50	50	NUM	_	NumType=Card	8	nsubj	8:nsubj|9:nsubj	_
 8	ficaram	ficar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	conj	3:conj:e	_
-9	feridas	ferir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	8	xcomp	8:xcomp	SpaceAfter=No
+9	feridas	ferido	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	8	xcomp	8:xcomp	SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	3:punct	_
 
 # sent_id = FOLHA_DOC003185_SENT003
@@ -11309,7 +11309,7 @@
 # text = Dom Pedro 1º levantou a espada e gritou "Fora, Temer!".
 1	Dom	Dom	PROPN	_	_	4	nsubj	4:nsubj|8:nsubj	_
 2	Pedro	Pedro	PROPN	_	_	1	flat:name	1:flat:name	_
-3	1º	1º	ADJ	_	Gender=Masc|NumType=Ord	1	amod	1:amod	_
+3	1º	1º	NUM	_	Gender=Masc|Number=Sing|NumType=Ord	1	nmod	1:nmod	_
 4	levantou	levantar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	_
 6	espada	espada	NOUN	_	Gender=Fem|Number=Sing	4	obj	4:obj	_
@@ -11843,7 +11843,7 @@
 3	também	também	ADV	_	_	4	advmod	4:advmod	_
 4	divulgou	divulgar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 5	novo	novo	ADJ	_	Gender=Masc|Number=Sing	6	amod	6:amod	_
-6	poster	poster	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	4	obj	4:obj	_
+6	poster	poster	X	_	Foreign=Yes	4	obj	4:obj	_
 7-8	do	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	9:case	_
 8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	_
@@ -11952,11 +11952,11 @@
 
 # sent_id = FOLHA_DOC000045_SENT031
 # text = O primeiro deles é o Artigo 155, que prevê a suspensão temporária da autonomia catalã.
-1	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	7:nsubj	_
-2	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	1	amod	1:amod	_
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	_
+2	primeiro	primeiro	NUM	_	Gender=Masc|Number=Sing|NumType=Ord	7	nsubj	7:nsubj	_
 3-4	deles	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	4	case	4:case	_
-4	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nmod	1:nmod:de	_
+4	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nmod	2:nmod:de	_
 5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	_
 7	Artigo	Artigo	PROPN	_	_	0	root	0:root|11:nsubj	_
@@ -12213,7 +12213,7 @@
 2	Sabesp	Sabesp	PROPN	_	_	4	nsubj	4:nsubj|6:nsubj	_
 3	não	não	ADV	_	_	4	advmod	4:advmod	_
 4	quis	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-5	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	6	expl	6:expl	_
+5	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	6	expl	6:expl	_
 6	manifestar	manifestar	VERB	_	VerbForm=Inf	4	xcomp	4:xcomp	_
 7	sobre	sobre	ADP	_	_	9	case	9:case	_
 8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	_
@@ -12271,8 +12271,8 @@
 13	,	,	PUNCT	_	_	14	punct	14:punct	_
 14	caminho	caminho	NOUN	_	Gender=Masc|Number=Sing	12	appos	12:appos	_
 15	de	de	ADP	_	_	16	case	16:case	_
-16	quem	quem	PRON	_	PronType=Ind	17	obl	17:obl:de	_
-17	seguia	seguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_
+16	quem	quem	PRON	_	PronType=Ind	14	obl	14:obl:de	_
+17	seguia	seguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	16:acl:relcl	_
 18	para	para	ADP	_	_	20	case	20:case	_
 19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	20:det	_
 20	Rock	Rock	PROPN	_	_	17	obl	17:obl:para	_
@@ -12332,7 +12332,7 @@
 5	2005	2005	NUM	_	NumType=Card	3	obl	3:obl:em	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	3:punct	_
 7	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	9:nsubj	_
-8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	9:expl	_
+8	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	9	expl	9:expl	_
 9	surpreendeu	surpreender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 10	com	com	ADP	_	_	12	case	12:case	_
 11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	12:det	_
@@ -12515,7 +12515,7 @@
 # sent_id = FOLHA_DOC003152_SENT003
 # text = A história digna de heroína de fábula vendeu mais de 2,7 milhões de cópias, foi traduzida em 30 idiomas e adaptada para os cinemas (em filme homônimo, em cartaz).
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	_
-2	história	história	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	8:nsubj|17:nsubj	_
+2	história	história	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	8:nsubj|17:nsubj|22:nsubj	_
 3	digna	digno	ADJ	_	Gender=Fem|Number=Sing	2	amod	2:amod	_
 4	de	de	ADP	_	_	5	case	5:case	_
 5	heroína	heroína	NOUN	_	Gender=Fem|Number=Sing	3	obl	3:obl:de	_
@@ -12652,7 +12652,7 @@
 30	,	,	PUNCT	_	_	15	punct	15:punct	_
 31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	32:det	_
 32	casa	casa	NOUN	_	Gender=Fem|Number=Sing	34	nsubj	34:nsubj	_
-33	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	34	expl	34:expl	_
+33	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	34	expl	34:expl	_
 34	sai	sair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 35	bem	bem	ADV	_	_	34	advmod	34:advmod	SpaceAfter=No
 36	.	.	PUNCT	_	_	34	punct	34:punct	_
@@ -12690,7 +12690,7 @@
 8	,	,	PUNCT	_	_	3	punct	3:punct	_
 9-10	queixaram-se	_	_	_	_	_	_	_	_
 9	queixaram	queixar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-10	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	9:expl	_
+10	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	9	expl	9:expl	_
 11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	12:det	_
 12	economistas	economista	NOUN	_	Number=Plur	9	nsubj	9:nsubj	SpaceAfter=No
 13	.	.	PUNCT	_	_	9	punct	9:punct	_
@@ -12922,7 +12922,7 @@
 
 # sent_id = FOLHA_DOC001212_SENT019
 # text = Uma vez ali, eles evoluíram para ter dentes grandes e afiados que usam, de acordo com a população local, para mordiscar castanhas e coquinhos.
-1	Uma	um	DET	_	Definite=Ind|ExtPos=SCONJ|Gender=Fem|Number=Sing|PronType=Art	3	mark	3:mark	_
+1	Uma	um	NUM	_	ExtPos=SCONJ|Gender=Fem|NumType=Card	3	mark	3:mark	_
 2	vez	vez	NOUN	_	Gender=Fem|Number=Sing	1	fixed	1:fixed	_
 3	ali	ali	ADV	_	_	6	advcl	6:advcl:uma_vez	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	3:punct	_
@@ -13046,7 +13046,7 @@
 5	que	que	SCONJ	_	_	4	fixed	4:fixed	_
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	_
 7	maior	maior	ADJ	_	Number=Sing	8	amod	8:amod	_
-8	parte	parte	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	14:nsubj	_
+8	parte	parte	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	14:nsubj|20:nsubj	_
 9-10	dos	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	11:case	_
 10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	11:det	_
@@ -13058,7 +13058,7 @@
 16	favela	favela	NOUN	_	Gender=Fem|Number=Sing	14	obj	14:obj	_
 17	ou	ou	CCONJ	_	_	20	cc	20:cc	_
 18	tinha	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	20:aux	_
-19	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	20	expl	20:expl	_
+19	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	20	expl	20:expl	_
 20	refugiado	refugiar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	conj	3:acl:de_que|14:conj:ou	_
 21-22	na	_	_	_	_	_	_	_	_
 21	em	em	ADP	_	_	23	case	23:case	_
@@ -13215,7 +13215,7 @@
 9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	10:det	_
 10	banheiro	banheiro	NOUN	_	Gender=Masc|Number=Sing	7	nmod	7:nmod:em	_
 11	que	que	PRON	_	PronType=Rel	13	nsubj	7:ref	_
-12	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	expl	13:expl	_
+12	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	13	iobj	13:iobj	_
 13	abriu	abrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	7:acl:relcl	_
 14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	15:det	_
 15	supercílio	supercílio	NOUN	_	Gender=Masc|Number=Sing	13	obj	13:obj	SpaceAfter=No
@@ -13343,7 +13343,7 @@
 22	próprios	próprio	ADJ	_	Gender=Masc|Number=Plur	23	amod	23:amod	_
 23	espaços	espaço	NOUN	_	Gender=Masc|Number=Plur	20	obj	20:obj	_
 24	para	para	ADP	_	_	25	mark	25:mark	_
-25	discutir	discutir	VERB	_	VerbForm=Inf	20	advcl	20:advcl:para	_
+25	discutir	discutir	VERB	_	VerbForm=Inf	23	acl	23:acl:para	_
 26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	27:det	_
 27	esporte	esporte	NOUN	_	Gender=Masc|Number=Sing	25	obj	25:obj	SpaceAfter=No
 28	.	.	PUNCT	_	_	20	punct	20:punct	_
@@ -13411,11 +13411,11 @@
 12	reforça	reforçar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	14:det	_
 14	momento	momento	NOUN	_	Gender=Masc|Number=Sing	12	obj	12:obj	_
-15	off-line	off-line	ADJ	_	Foreign=Yes	14	amod	14:amod	_
+15	off-line	off-line	X	_	Foreign=Yes	14	amod	14:amod	_
 16-17	da	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	18:case	_
 17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	18:det	_
-18	youtuber	youtuber	NOUN	_	Foreign=Yes|Number=Sing	14	nmod	14:nmod:de	SpaceAfter=No
+18	youtuber	youtuber	X	_	Foreign=Yes	14	nmod	14:nmod:de	SpaceAfter=No
 19	.	.	PUNCT	_	_	12	punct	12:punct	_
 
 # sent_id = FOLHA_DOC003070_SENT002
@@ -13469,7 +13469,7 @@
 # text = Depois de se apresentar no Rock In Rio, Roberta faz show em São Paulo nesta terça (19) e quarta (20), no Baretto.
 1	Depois	depois	ADV	_	_	12	advmod	12:advmod	_
 2	de	de	ADP	_	_	4	mark	4:mark	_
-3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	4:expl	_
+3	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	4	expl	4:expl	_
 4	apresentar	apresentar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	1	acl	1:acl:de	_
 5-6	no	_	_	_	_	_	_	_	_
 5	em	em	ADP	_	_	7	case	7:case	_
@@ -13819,10 +13819,10 @@
 18-19	das	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	24	mark	24:mark|30:mark	_
 19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	20:det	_
-20	autoridades	autoridade	NOUN	_	Gender=Fem|Number=Plur	24	nsubj	24:nsubj	_
+20	autoridades	autoridade	NOUN	_	Gender=Fem|Number=Plur	24	nsubj	24:nsubj|30:nsubj	_
 21	americanas	americano	ADJ	_	Gender=Fem|Number=Plur	20	amod	20:amod	_
 22	terem	ter	AUX	_	Number=Plur|Person=3|VerbForm=Inf	24	aux	24:aux|30:aux	_
-23	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	24	expl	24:expl	_
+23	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	24	expl	24:expl	_
 24	queixado	queixar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	17	acl	17:acl:de	_
 25-26	aos	_	_	_	_	_	_	_	_
 25	a	a	ADP	_	_	28	case	28:case	_
@@ -13979,14 +13979,14 @@
 # text = Maldonado havia se juntado a um protesto de indígenas mapuche que reivindicam um território na Província de Chubut, no sul do país, hoje sob posse da companhia italiana Benetton.
 1	Maldonado	Maldonado	PROPN	_	_	4	nsubj	4:nsubj	_
 2	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	4:aux	_
-3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	4:expl	_
+3	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	4	expl	4:expl	_
 4	juntado	juntar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	0:root	_
 5	a	a	ADP	_	_	7	case	7:case	_
 6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	_
 7	protesto	protesto	NOUN	_	Gender=Masc|Number=Sing	4	obl	4:obl:a	_
 8	de	de	ADP	_	_	9	case	9:case	_
 9	indígenas	indígena	NOUN	_	Number=Plur	7	nmod	7:nmod:de|12:nsubj	_
-10	mapuche	mapuche	NOUN	_	Foreign=Yes|Number=Plur	9	nmod	9:nmod	_
+10	mapuche	mapuche	X	_	Foreign=Yes	9	nmod	9:nmod	_
 11	que	que	PRON	_	PronType=Rel	12	nsubj	9:ref	_
 12	reivindicam	reivindicar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	9:acl:relcl	_
 13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	14:det	_
@@ -14523,7 +14523,7 @@
 10	e	e	CCONJ	_	_	11	cc	11:cc	_
 11	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	6:conj:e	_
 12	que	que	SCONJ	_	_	14	mark	14:mark	_
-13	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	14	expl	14:expl	_
+13	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	14	expl	14:expl	_
 14	aproximou	aproximar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	ccomp	11:ccomp	_
 15-16	da	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	17:case	_
@@ -14620,7 +14620,7 @@
 9	época	época	NOUN	_	Gender=Fem|Number=Sing	7	obj	7:obj|13:obl:em	_
 10	em	em	ADP	_	_	11	case	11:case	_
 11	que	que	PRON	_	PronType=Rel	13	obl	9:ref	_
-12	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	13	expl	13:expl	_
+12	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	13	expl	13:expl	_
 13	passa	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	9:acl:relcl	SpaceAfter=No
 14	,	,	PUNCT	_	_	7	punct	7:punct	_
 15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	16:det	_
@@ -14929,7 +14929,7 @@
 10	de	de	ADP	_	_	11	case	11:case	_
 11	pneus	pneu	NOUN	_	Gender=Masc|Number=Plur	9	nmod	9:nmod:de	_
 12	e	e	CCONJ	_	_	13	cc	13:cc	_
-13	pallets	pallet	NOUN	_	Foreign=Yes|Gender=Masc|Number=Plur	9	conj	7:obl:de|9:conj:e	_
+13	pallets	pallets	X	_	Foreign=Yes	9	conj	7:obl:de|9:conj:e	_
 14	que	que	PRON	_	PronType=Rel	15	nsubj	6:ref	_
 15	aportam	aportar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	6:acl:relcl	_
 16-17	à	_	_	_	_	_	_	_	_
@@ -14990,7 +14990,7 @@
 5-6	deles	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	6	case	6:case	_
 6	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nmod	4:nmod:de	_
-7	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	8	expl	8:expl	_
+7	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	8	expl	8:expl	_
 8	dirige	dirigir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 9-10	ao	_	_	_	_	_	_	_	_
 9	a	a	ADP	_	_	11	case	11:case	_
@@ -15071,7 +15071,7 @@
 5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	7:det	_
 6	mesma	mesmo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	7:det	_
 7	espécie	espécie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	2:nmod:de	_
-8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	9:expl	_
+8	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	9	expl	9:expl	_
 9	acomoda	acomodar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 10-11	na	_	_	_	_	_	_	_	_
 10	em	em	ADP	_	_	12	case	12:case	_
@@ -15111,7 +15111,7 @@
 19	não	não	ADV	_	_	20	advmod	20:advmod	_
 20	comparecer	comparecer	VERB	_	VerbForm=Inf	15	acl	15:acl:como	_
 21	para	para	ADP	_	_	23	mark	23:mark	_
-22	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	23	expl	23:expl	_
+22	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	23	expl	23:expl	_
 23	explicar	explicar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	20	advcl	20:advcl:para	_
 24	sobre	sobre	ADP	_	_	25	case	25:case	_
 25	reclamação	reclamação	NOUN	_	Gender=Fem|Number=Sing	23	obl	23:obl:sobre	SpaceAfter=No
@@ -15182,7 +15182,7 @@
 20-21	da	_	_	_	_	_	_	_	_
 20	de	de	ADP	_	_	22	case	22:case	_
 21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	22:det	_
-22	internet	internet	NOUN	_	Foreign=Yes|Gender=Fem|Number=Sing	19	nmod	19:nmod:de	_
+22	internet	internet	X	_	Foreign=Yes	19	nmod	19:nmod:de	_
 23	em	em	ADP	_	_	24	case	24:case	_
 24	casa	casa	NOUN	_	Gender=Fem|Number=Sing	22	nmod	22:nmod:em	SpaceAfter=No
 25	.	.	PUNCT	_	_	10	punct	10:punct	_
@@ -15741,7 +15741,7 @@
 # sent_id = FOLHA_DOC000119_SENT006
 # text = "Se organize ou saia do caminho", disse.
 1	"	"	PUNCT	_	_	3	punct	3:punct	SpaceAfter=No
-2	Se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	3	expl	3:expl	_
+2	Se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	3	expl	3:expl	_
 3	organize	organizar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp:speech	11:ccomp:speech	_
 4	ou	ou	CCONJ	_	_	5	cc	5:cc	_
 5	saia	sair	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	3:conj:ou|11:ccomp:speech	_
@@ -15756,7 +15756,7 @@
 
 # sent_id = FOLHA_DOC001124_SENT038
 # text = Primeiro, inviabilizam exposições de arte.
-1	Primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	advmod	3:advmod	SpaceAfter=No
+1	Primeiro	primeiro	NUM	_	Gender=Masc|Number=Sing|NumType=Ord	3	obl	3:obl	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	1:punct	_
 3	inviabilizam	inviabilizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	exposições	exposição	NOUN	_	Gender=Fem|Number=Plur	3	obj	3:obj	_
@@ -15773,7 +15773,7 @@
 5	se	se	SCONJ	_	_	9	mark	9:mark	_
 6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	7:det	_
 7	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	9:nsubj	_
-8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	9:expl	_
+8	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	9	expl	9:expl	_
 9	casassem	casar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	advcl	20:advcl:se	_
 10	com	com	ADP	_	_	11	case	11:case	_
 11	parceiros	parceiro	NOUN	_	Gender=Masc|Number=Plur	9	obl	9:obl:com	_
@@ -15896,7 +15896,7 @@
 
 # sent_id = FOLHA_DOC003191_SENT018
 # text = Procurada, a Honda afirmou que entraria em contato com o escritório americano para obter informações sobre o caso, mas não respondeu antes da publicação desta reportagem.
-1	Procurada	procurar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	5	advcl	5:advcl|23:advcl	SpaceAfter=No
+1	Procurada	procurar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	advcl	5:advcl|23:advcl	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	1:punct	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	4:det	_
 4	Honda	Honda	PROPN	_	_	5	nsubj	5:nsubj|23:nsubj	_
@@ -16189,7 +16189,7 @@
 4	infantil	infantil	ADJ	_	Number=Sing	3	amod	3:amod	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	3:punct	_
 6	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	8:nsubj	_
-7	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	8	expl	8:expl	_
+7	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	8	expl	8:expl	_
 8	esbaldaram	esbaldar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 9	com	com	ADP	_	_	11	case	11:case	_
 10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	11:det	_
@@ -16255,7 +16255,7 @@
 12	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	9	nmod	9:nmod:em	_
 13	negro	negro	ADJ	_	Gender=Masc|Number=Sing	12	amod	12:amod	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	15:punct	_
-15	vindos	vir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	9	acl	9:acl	_
+15	vindos	vindo	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	9	amod	9:amod	_
 16	principalmente	principalmente	ADV	_	_	19	advmod	19:advmod	_
 17-18	da	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	19:case	_
@@ -16396,10 +16396,10 @@
 
 # sent_id = FOLHA_DOC001376_SENT031
 # text = A primeira a sair da favela foi a dos fuzileiros navais.
-1	A	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	9	nsubj	9:nsubj	_
-2	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	1	amod	1:amod	_
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	_
+2	primeira	primeiro	NUM	_	Gender=Fem|Number=Sing|NumType=Ord	9	nsubj	9:nsubj	_
 3	a	a	ADP	_	_	4	mark	4:mark	_
-4	sair	sair	VERB	_	VerbForm=Inf	1	acl	1:acl:a	_
+4	sair	sair	VERB	_	VerbForm=Inf	2	acl	2:acl:a	_
 5-6	da	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	7:case	_
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	7:det	_
@@ -16629,7 +16629,7 @@
 17	,	,	PUNCT	_	_	15	punct	15:punct	_
 18-19	limitou-se	_	_	_	_	_	_	_	_
 18	limitou	limitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-19	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	18	expl	18:expl	_
+19	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	18	expl	18:expl	_
 20	a	a	ADP	_	_	21	mark	21:mark	_
 21	dizer	dizer	VERB	_	VerbForm=Inf	18	xcomp	18:xcomp	_
 22	que	que	SCONJ	_	_	28	mark	28:mark	_
@@ -16652,7 +16652,7 @@
 # sent_id = FOLHA_DOC000071_SENT033
 # text = "Tudo dele era ler, ler, ler", lembra Maria Alexandrina.
 1	"	"	PUNCT	_	_	6	punct	6:punct	SpaceAfter=No
-2	Tudo	tudo	PRON	_	PronType=Ind	6	nsubj	6:nsubj	_
+2	Tudo	tudo	PRON	_	PronType=Ind	6	nsubj	6:nsubj|8:nsubj|10:nsubj	_
 3-4	dele	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	4	case	4:case	_
 4	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nmod	2:nmod:de	_
@@ -16767,7 +16767,7 @@
 3	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	_
 4	passei	passar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	acl:relcl	1:acl:relcl	_
 5	35	35	NUM	_	NumType=Card	6	nummod	6:nummod	_
-6	anos	ano	NOUN	_	Gender=Masc|Number=Plur	4	obj	4:obj	_
+6	anos	ano	NOUN	_	Gender=Masc|Number=Plur	4	obl	4:obl	_
 7	achando	achar	VERB	_	VerbForm=Ger	4	advcl	4:advcl	_
 8	que	que	SCONJ	_	_	9	mark	9:mark	_
 9	sabia	saber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	ccomp	7:ccomp	_
@@ -16832,10 +16832,10 @@
 18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	19:det	_
 19	sapo	sapo	NOUN	_	Gender=Masc|Number=Sing	16	nmod	16:nmod:de	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	21:punct	_
-21	coitado	coitado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	19	amod	19:amod	SpaceAfter=No
+21	coitado	coitado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	24	discourse	24:discourse	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	21:punct	_
 23	logo	logo	ADV	_	_	24	advmod	24:advmod	_
-24	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	appos	19:appos|28:nsubj	_
+24	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	parataxis	19:parataxis|28:nsubj	_
 25	que	que	PRON	_	PronType=Rel	28	nsubj	24:ref	_
 26	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	28:cop	_
 27	tão	tão	ADV	_	_	28	advmod	28:advmod	_
@@ -16863,12 +16863,12 @@
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	7:det	_
 7	França	França	PROPN	_	_	14	nsubj	14:nsubj	_
 8	(	(	PUNCT	_	_	10	punct	10:punct	SpaceAfter=No
-9	8ª	8ª	ADJ	_	Gender=Fem|NumType=Ord	10	amod	10:amod	_
+9	8ª	8ª	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	10	amod	10:amod	_
 10	colocada	colocado	NOUN	_	Gender=Fem|Number=Sing	7	appos	7:appos	SpaceAfter=No
 11	)	)	PUNCT	_	_	10	punct	10:punct	_
 12	estaria	estar	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	14	cop	14:cop	_
 13	em	em	ADP	_	_	14	case	14:case	_
-14	3º	3º	ADJ	_	Gender=Masc|NumType=Ord	0	root	0:root	SpaceAfter=No
+14	3º	3º	NUM	_	Gender=Masc|Number=Sing|NumType=Ord	0	root	0:root	SpaceAfter=No
 15	.	.	PUNCT	_	_	14	punct	14:punct	_
 
 # sent_id = FOLHA_DOC003028_SENT005
@@ -16920,11 +16920,11 @@
 
 # sent_id = FOLHA_DOC000145_SENT016
 # text = Clara logo se verá obrigada a acumular também as funções de empregada doméstica.
-1	Clara	Clara	PROPN	_	_	4	nsubj	4:nsubj|5:nsubj|7:nsubj	_
+1	Clara	Clara	PROPN	_	_	4	nsubj	4:nsubj|5:nsubj:pass|7:nsubj	_
 2	logo	logo	ADV	_	_	4	advmod	4:advmod	_
-3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	4:expl	_
+3	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	4	expl	4:expl	_
 4	verá	ver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_
-5	obrigada	obrigar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	xcomp	4:xcomp	_
+5	obrigada	obrigar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	xcomp	4:xcomp	_
 6	a	a	ADP	_	_	7	mark	7:mark	_
 7	acumular	acumular	VERB	_	VerbForm=Inf	5	xcomp	5:xcomp	_
 8	também	também	ADV	_	_	7	advmod	7:advmod	_
@@ -16998,7 +16998,7 @@
 # sent_id = FOLHA_DOC000032_SENT008
 # text = O banheiro é imundo, e isso porque deixam fechado, senão usuários de drogas tomam conta.
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	_
-2	banheiro	banheiro	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	4:nsubj	_
+2	banheiro	banheiro	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	4:nsubj|7:nsubj	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop|7:cop	_
 4	imundo	imundo	ADJ	_	Gender=Masc|Number=Sing	0	root	0:root	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	7:punct	_
@@ -17031,7 +17031,7 @@
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	13	case	13:case	_
 12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	13:det	_
-13	web	web	NOUN	_	Foreign=Yes|Gender=Fem|Number=Sing	10	obl	10:obl:de	SpaceAfter=No
+13	web	web	X	_	Foreign=Yes	10	obl	10:obl:de	SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	3:punct	_
 
 # sent_id = FOLHA_DOC003073_SENT011
@@ -17550,10 +17550,10 @@
 9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	11:det	_
 10	28	28	NUM	_	NumType=Card	11	nummod	11:nummod	_
 11	anos	ano	NOUN	_	Gender=Masc|Number=Plur	1	obl	1:obl:a	SpaceAfter=No
-12	,	,	PUNCT	_	_	13	punct	13:punct	_
-13	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	advcl	1:advcl	_
-14	a	a	ADP	_	_	15	case	15:case	_
-15	complicações	complicação	NOUN	_	Gender=Fem|Number=Plur	13	obl	13:obl:a	_
+12	,	,	PUNCT	_	_	15	punct	15:punct	_
+13	devido	dever	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	15	case	15:case	_
+14	a	a	ADP	_	_	13	fixed	13:fixed	_
+15	complicações	complicação	NOUN	_	Gender=Fem|Number=Plur	1	obl	1:obl:a	_
 16-17	numa	_	_	_	_	_	_	_	_
 16	em	em	ADP	_	_	18	case	18:case	_
 17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	18:det	_
@@ -17598,7 +17598,7 @@
 30	de	de	ADP	_	_	32	case	32:case	_
 31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	32:det	_
 32	saúde	saúde	NOUN	_	Gender=Fem|Number=Sing	29	nmod	29:nmod:de	_
-33	envolvidos	envolver	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	29	acl	29:acl	SpaceAfter=No
+33	envolvidos	envolvido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	29	amod	29:amod	SpaceAfter=No
 34	.	.	PUNCT	_	_	16	punct	16:punct	_
 
 # sent_id = FOLHA_DOC003232_SENT013
@@ -18060,15 +18060,15 @@
 
 # sent_id = FOLHA_DOC000015_SENT008
 # text = O primeiro deles, o novo Polo, já foi colocado no mercado, e o segundo, o sedã Virtus, será lançado em janeiro de 2018.
-1	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj:pass	12:nsubj:pass	_
-2	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	1	amod	1:amod	_
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	_
+2	primeiro	primeiro	NUM	_	Gender=Masc|Number=Sing|NumType=Ord	12	nsubj:pass	12:nsubj:pass	_
 3-4	deles	_	_	_	_	_	_	_	SpaceAfter=No
 3	de	de	ADP	_	_	4	case	4:case	_
-4	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nmod	1:nmod:de	_
+4	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nmod	2:nmod:de	_
 5	,	,	PUNCT	_	_	8	punct	8:punct	_
 6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	_
 7	novo	novo	ADJ	_	Gender=Masc|Number=Sing	8	amod	8:amod	_
-8	Polo	Polo	PROPN	_	_	1	appos	1:appos	SpaceAfter=No
+8	Polo	Polo	PROPN	_	_	2	appos	2:appos	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	8:punct	_
 10	já	já	ADV	_	_	12	advmod	12:advmod	_
 11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	12:aux:pass	_
@@ -18079,11 +18079,11 @@
 15	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	12	obl	12:obl:em	SpaceAfter=No
 16	,	,	PUNCT	_	_	12	punct	12:punct	_
 17	e	e	CCONJ	_	_	26	cc	26:cc	_
-18	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	nsubj:pass	26:nsubj:pass	_
-19	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	18	amod	18:amod	SpaceAfter=No
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	19:det	_
+19	segundo	segundo	NUM	_	Gender=Masc|Number=Sing|NumType=Ord	26	nsubj:pass	26:nsubj:pass	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	22:punct	_
 21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	22:det	_
-22	sedã	sedã	NOUN	_	Gender=Masc|Number=Sing	18	appos	18:appos	_
+22	sedã	sedã	NOUN	_	Gender=Masc|Number=Sing	19	appos	19:appos	_
 23	Virtus	Virtus	PROPN	_	_	22	nmod	22:nmod	SpaceAfter=No
 24	,	,	PUNCT	_	_	22	punct	22:punct	_
 25	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	26	aux:pass	26:aux:pass	_
@@ -18460,8 +18460,8 @@
 10	pretenda	pretender	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl:caso	_
 11-12	manter-se	_	_	_	_	_	_	_	_
 11	manter	manter	VERB	_	VerbForm=Inf	10	xcomp	10:xcomp	_
-12	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	11	expl	11:expl	_
-13	filiado	filiar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	11	xcomp	11:xcomp	_
+12	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	11	expl	11:expl	_
+13	filiado	filiado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	11	xcomp	11:xcomp	_
 14-15	ao	_	_	_	_	_	_	_	_
 14	a	a	ADP	_	_	16	case	16:case	_
 15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	_
@@ -18564,7 +18564,7 @@
 3	de	de	ADP	_	_	5	case	5:case	_
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	_
 5	vitória	vitória	NOUN	_	Gender=Fem|Number=Sing	2	nmod	2:nmod:de	_
-6	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	7	expl	7:expl	_
+6	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	7	expl	7:expl	_
 7	dava	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	_
 8-9	pelo	_	_	_	_	_	_	_	_
 8	por	por	ADP	_	_	10	case	10:case	_
@@ -18763,7 +18763,7 @@
 5	Defesa	Defesa	PROPN	_	_	2	flat:name	2:flat:name	_
 6	não	não	ADV	_	_	9	advmod	9:advmod	_
 7	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	9:aux	_
-8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	9:expl	_
+8	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	9	expl	9:expl	_
 9	manifestado	manifestar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	0:root	_
 10	até	até	ADP	_	_	12	case	12:case	_
 11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	12:det	_
@@ -18807,7 +18807,7 @@
 5	diferente	diferente	ADJ	_	Number=Sing	2	amod	2:amod	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	5:punct	_
 7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
-8	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	9	expl	9:expl	_
+8	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	9	expl	9:expl	_
 9	aposentar	aposentar	VERB	_	VerbForm=Inf	0	root	0:root	_
 10-11	do	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	11	case	11:case	_
@@ -19201,7 +19201,7 @@
 37	de	de	ADP	_	_	38	mark	38:mark	_
 38-39	tornar-se	_	_	_	_	_	_	_	_
 38	tornar	tornar	VERB	_	VerbForm=Inf	36	acl	36:acl:de	_
-39	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	38	expl	38:expl	_
+39	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	38	expl	38:expl	_
 40	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	38	xcomp	38:xcomp	_
 41	belo	belo	ADJ	_	Gender=Masc|Number=Sing	40	amod	40:amod	SpaceAfter=No
 42	,	,	PUNCT	_	_	43	punct	43:punct	_
@@ -19269,7 +19269,7 @@
 12	prefeito	prefeito	NOUN	_	Gender=Masc|Number=Sing	10	conj	10:conj:e|13:nsubj|16:nsubj	_
 13	passaram	passar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 14	a	a	ADP	_	_	16	mark	16:mark	_
-15	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	16	expl	16:expl	_
+15	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	16	obj	16:obj	_
 16	bicar	bicar	VERB	_	VerbForm=Inf	13	xcomp	13:xcomp	_
 17	como	como	ADP	_	_	18	case	18:case	_
 18	estranhos	estranho	NOUN	_	Gender=Masc|Number=Plur	16	obl	16:obl:como	_
@@ -19555,7 +19555,7 @@
 
 # sent_id = FOLHA_DOC001075_SENT023
 # text = Uma vez encontrado o editor adequado, o "publisher" o mantinha por décadas.
-1	Uma	um	DET	_	Definite=Ind|ExtPos=SCONJ|Gender=Fem|Number=Sing|PronType=Art	3	mark	3:mark	_
+1	Uma	um	NUM	_	ExtPos=SCONJ|Gender=Fem|NumType=Card	3	mark	3:mark	_
 2	vez	vez	NOUN	_	Gender=Fem|Number=Sing	1	fixed	1:fixed	_
 3	encontrado	encontrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	advcl	13:advcl:uma_vez	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	_
@@ -19564,7 +19564,7 @@
 7	,	,	PUNCT	_	_	3	punct	3:punct	_
 8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	10:det	_
 9	"	"	PUNCT	_	_	10	punct	10:punct	SpaceAfter=No
-10	publisher	publisher	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	13	nsubj	13:nsubj	SpaceAfter=No
+10	publisher	publisher	X	_	Foreign=Yes	13	nsubj	13:nsubj	SpaceAfter=No
 11	"	"	PUNCT	_	_	10	punct	10:punct	_
 12	o	o	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	13:obj	_
 13	mantinha	manter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	_
@@ -19614,7 +19614,7 @@
 4	"	"	PUNCT	_	_	5	punct	5:punct	SpaceAfter=No
 5	Encaminho	encaminhar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp:speech	2:ccomp:speech	_
 6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	_
-7	print	print	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	5	obj	5:obj	_
+7	print	print	X	_	Foreign=Yes	5	obj	5:obj	_
 8	[	[	PUNCT	_	_	10	punct	10:punct	SpaceAfter=No
 9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	10:det	_
 10	foto	foto	NOUN	_	Number=Sing	7	appos	7:appos	_
@@ -19803,7 +19803,7 @@
 7	de	de	ADP	_	_	9	case	9:case	_
 8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	9:det	_
 9	terraplanistas	terraplanista	NOUN	_	Number=Plur	6	nmod	6:nmod:de	_
-10	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	11	expl	11:expl	_
+10	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	11	expl	11:expl	_
 11	afigura	afigurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 12	quase	quase	ADV	_	_	13	advmod	13:advmod	_
 13	benigno	benigno	ADJ	_	Gender=Masc|Number=Sing	11	xcomp	11:xcomp	SpaceAfter=No
@@ -19813,7 +19813,7 @@
 # text = Embora o e-mail indique emissão de nota fiscal para o serviço e aprovação para o pagamento, a assessoria do Comitê Rio-16 afirma que o pagamento não foi feito.
 1	Embora	embora	SCONJ	_	_	4	mark	4:mark	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	3:det	_
-3	e-mail	e-mail	NOUN	_	Foreign=Yes|Gender=Masc|Number=Sing	4	nsubj	4:nsubj	_
+3	e-mail	e-mail	X	_	Foreign=Yes	4	nsubj	4:nsubj	_
 4	indique	indicar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	24:advcl:embora	_
 5	emissão	emissão	NOUN	_	Gender=Fem|Number=Sing	4	obj	4:obj	_
 6	de	de	ADP	_	_	7	case	7:case	_
